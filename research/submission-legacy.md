@@ -1,5 +1,7 @@
 # Archived submission notes - superseded by SUBMISSION.md
 
+> Archive of the five-coin submission draft. See the [current submission](../SUBMISSION.md).
+
 # Submission handoff
 
 ## Required links

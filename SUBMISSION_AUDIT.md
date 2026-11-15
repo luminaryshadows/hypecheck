@@ -1,4 +1,4 @@
-> Archived pre-headline-scope audit. Current acceptance gate: python verify_submission.py; current results: docs/headline-report.json. Earlier notebook counts and headline metrics below are historical, not current.
+> Archive of the pre-expansion audit. See the [current submission](SUBMISSION.md) and its [method](research/method.md).
 
 # Submission audit and experiment choice
 

@@ -1,6 +1,8 @@
 # Exploratory analyses
 
-The five-coin historical replay is the submission benchmark. The repository also retains archived experiments that examined different targets and coin universes. These records document hypotheses and failure modes. Use the main notebook and the five-coin volatility script to reproduce the submitted results.
+> Archive of earlier experiments. See the [current 13-coin submission](../README.md) and its [method](method.md).
+
+The five-coin historical replay was an earlier benchmark. The repository also retains archived experiments that examined different targets and coin universes. These records document hypotheses and failure modes. The five-coin direction and volatility studies use their earlier inputs and artifacts.
 
 - The 23-coin same-day summary groups 1,749 observed coin-days and omits days without eligible posts. The coin universe used [CoinGecko](https://www.coingecko.com/en/categories/meme-token) classifications and Binance listings. It is retrospective and can be affected by listing selection and changing source coverage. In the committed summary, post count correlates 0.166 with absolute same-day open-to-close moves, and aggregate sentiment correlates 0.115 with signed moves. Price and posting windows overlap. Shared date shocks and repeated coins also make ordinary correlation p-values unsuitable as confirmation.
 - The archived text model was trained on FinTwitBERT scores. Shuffled-fold agreement measures imitation of the teacher. The subsequent full-corpus refit makes the exported scores unsuitable as historical forecast inputs. The reported association of score magnitude with captured likes was near zero. The 23-coin results include earlier periods than the primary experiment.

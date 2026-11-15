@@ -51,8 +51,11 @@ assignments = {node.targets[0].id: ast.literal_eval(node.value)
 assert assignments['REVISION'] == metadata['bootstrap_revision']
 assert assignments['VERIFIED_FILES'] == metadata['bootstrap_sha256']
 assert assignments['RECOMPUTE_SENTIMENT'] is False
-paths = [ROOT / name for name in ['HypeCheck.ipynb', 'README.md', 'requirements.lock.txt', 'docs/headline-predictions.json']]
+paths = [ROOT / name for name in ['HypeCheck.ipynb', 'README.md', 'research/method.md',
+                                  'requirements.lock.txt', 'docs/headline-predictions.json',
+                                  'docs/headline-context.json']]
 before = {path.name: digest(path) for path in paths}
+run([sys.executable, 'build_headline_context.py'])
 run([sys.executable, 'make_deliverables.py'])
 run([sys.executable, 'make_deliverables.py'])
 assert before == {path.name: digest(path) for path in paths}, 'Generator changed delivered artifacts or lockfile'

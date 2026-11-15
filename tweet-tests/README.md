@@ -1,5 +1,7 @@
 # Real archived bearish-tweet replay
 
+> Archive of a five-coin diagnostic. See the [current 13-coin replay](https://adeviwon.github.io/hypecheck/).
+
 Seeded sample of existing held-out coin-days with explicit ticker and cached bearish probability >=0.5; one random post per selected coin-day. Fresh sentiment inference, frozen JSON coefficient prediction. No retraining or outcome-based selection.
 
 Single-post diagnostic replaces daily social aggregates with one post while keeping historical market features fixed. It is not the original full-context forecast or a model trained specifically for single tweets.

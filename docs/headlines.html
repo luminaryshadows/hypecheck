@@ -1,21 +1,11 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HypeCheck — Signal or Noise?</title>
-<link rel="stylesheet" href="headlines.css"></head>
-<body><main>
-<p class="eyebrow">VERITAS AI · FINANCE · HISTORICAL RESEARCH</p><h1>The post sounds bullish.<br>Does that tell you tomorrow’s direction?</h1>
-<p>We tested prior-day X-post sentiment for 13 memecoins. <strong>Not reliably in this experiment.</strong> Beating two weak baselines did not establish that text added useful information.</p>
-<p><a href="https://colab.research.google.com/github/adeviwon/hypecheck/blob/main/HypeCheck.ipynb">Open the executed notebook</a> · <a href="https://github.com/adeviwon/hypecheck">Code and method</a> · <a href="headline-report.json">Measured JSON</a></p>
-<p class="notice">This project is a prototype and is not financial advice. Retrospective replay only—not a live forecast or trading recommendation. These are headline-style X posts, not newspaper headlines.</p>
-<p id="error" role="alert"></p><div id="cards" class="cards" aria-live="polite"></div>
-<h2>The same test period, the same rows</h2><p id="period" class="muted"></p>
-<div class="scroll"><table><thead><tr><th>Method</th><th>Accuracy</th><th>Brier error ↓</th></tr></thead><tbody id="metrics"></tbody></table></div>
-<p class="muted">Always up and previous-day direction are the requested baselines. Training majority and coin/market-only comparisons guard against mistaking a falling market or coin identity for a text signal. Previous-day direction means yesterday’s open-to-close direction, matching the target.</p>
-<h2>Try the historical replay</h2><section><label for="coin">Coin</label><select id="coin"></select><label for="day">UTC date</label><select id="day"></select><div id="forecast"></div><button id="reveal" type="button">Reveal what happened</button><p id="outcome" aria-live="polite">Outcome hidden.</p></section>
-<p class="muted">The forecast was constructed using information available before the date’s UTC cutoff. Missing archive posts mean missing observations, not an absence of discussion. This replay reads actual saved predictions; it does not score newly pasted text.</p>
-<h2>Do different kinds of posts help?</h2><p>Fixed keyword buckets: events → promotion → technical → other. For each kind, add its count and mean sentiment to market history. All comparisons use the full test panel; observed-kind counts show how sparse the evidence is. Categories are approximate rules, not manually validated labels.</p>
-<div class="scroll"><table><thead><tr><th>Kind</th><th>Coin-days with kind</th><th>Brier change vs market</th><th>95% interval</th><th>Adjusted p</th></tr></thead><tbody id="kinds"></tbody></table></div>
-<p>Negative Brier change favours the text features. <strong>Every interval spans zero.</strong> No kind demonstrates a reliable improvement here, and tiny slices cannot support trading claims.</p>
-<h2>What would this justify?</h2><p><strong>It justifies questioning claims of reliable sentiment-based forecasting.</strong> It does not justify buying, selling, shorting, leverage, profit expectations, or claims that tweets cause prices to change. Nor does this result prove that all prediction is impossible.</p>
-<p class="muted">The final period was inspected in earlier work; this is an exploratory extension, not an untouched confirmatory test. Pretraining overlap, collection timestamps, edits and sparse archive coverage limit the inference. No fees, slippage or execution study was performed.</p>
-<footer>Frozen pretrained FinTwitBERT features + trained logistic regression. Encoder not fine-tuned. The notebook trains the direction models afresh; its default sentiment cache is pinned and hash-checked. <a href="https://github.com/adeviwon/hypecheck#sources-and-credits">Sources and credits</a>.</footer>
-</main><script src="headlines.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=./">
+  <link rel="canonical" href="https://adeviwon.github.io/hypecheck/">
+  <title>HypeCheck historical replay</title>
+</head>
+<body><p><a href="./">Open the current HypeCheck study and historical replay.</a></p></body>
+</html>

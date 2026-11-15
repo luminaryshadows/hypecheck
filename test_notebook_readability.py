@@ -23,10 +23,10 @@ class ReadabilityTests(unittest.TestCase):
 
     def test_reading_route_and_plain_language(self):
         text = '\n'.join(''.join(cell['source']) for cell in self.nb['cells'] if cell['cell_type'] == 'markdown')
-        for phrase in ('Our user:', 'Bottom line:', 'Runtime → Run all', '## 1. Load',
+        for phrase in ('Our user:', 'Finding:', 'Runtime → Run all', '## 1. Load',
                        '## 4. Baselines', '## 6. Where', '## 8. Do some kinds',
                        '## 9. The demo', '## 10. Results', '## 11. What should',
-                       'Brier error', 'not independent confirmation', 'not fine-tuned'):
+                       'Brier error', 'result is exploratory', 'not fine-tuned'):
             self.assertIn(phrase, text)
         self.assertTrue(self.nb['metadata']['colab']['toc_visible'])
 

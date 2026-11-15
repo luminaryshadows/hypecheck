@@ -3,29 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#20231f">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <title>HypeCheck — Signal, not certainty.</title>
+  <title>HypeCheck — Signal or Noise?</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="headlines.css">
+  <script src="headlines.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#replay">Skip to historical replay</a>
-  <header class="masthead"><a class="wordmark" href="./" aria-label="HypeCheck home">hypecheck<span aria-hidden="true">↗</span></a><span class="edition">RESEARCH TERMINAL / HISTORICAL REPLAY</span><a class="method-link" href="#method">Read the fine print <span aria-hidden="true">↘</span></a></header>
   <main>
-    <section class="intro" aria-labelledby="headline"><div><p class="eyebrow">SOCIAL SIGNAL. MARKET REALITY.</p><h1 id="headline">The hype was loud.<br>Was it <em>useful?</em></h1><p class="deck">Rewind the clock. Compare market-only and market + X models using the information available before a historical UTC cutoff. Then reveal what happened next.</p></div><aside class="research-note"><span class="status-dot" aria-hidden="true"></span><strong>Retrospective research only</strong><p>Not live predictions. Not trading advice.</p><p>Sentiment certainty ≠ return certainty. A bullish post is not a reliable price forecast.</p></aside></section>
-    <div id="load-status" class="load-status" role="status" aria-live="polite">Loading the local research report…</div>
-    <noscript><p class="load-status">JavaScript is needed to read report.json and operate the historical replay. No forecasts are shown without the report.</p></noscript>
-    <section id="replay" class="replay" aria-labelledby="replay-title" hidden>
-      <div class="section-heading"><h2 id="replay-title"><span class="section-number">01</span> Rewind the record</h2><span class="tag">HELD-OUT TEST REPLAY</span></div>
-      <div class="controls"><div><label for="coin">Asset</label><select id="coin"></select></div><div><label for="date">Available test date · UTC</label><select id="date"></select></div><p id="cutoff" class="cutoff"></p></div>
-      <div class="replay-grid"><section class="signal-panel" aria-labelledby="signal-title"><p class="eyebrow" id="signal-title">MODEL PROBABILITY · NEXT 24H UP</p><div class="probability-row"><div><h3>Market only</h3><p id="market-prob" class="probability">—</p></div><span class="comparison-mark" aria-hidden="true">/</span><div><h3>Market + X</h3><p id="social-prob" class="probability lime">—</p></div></div><p id="delta" class="small muted"></p><p class="small muted">Model estimates, not guarantees. “Up” means a positive return over this record’s next-24-hour target window.</p><div class="outcome"><label class="reveal-control" for="reveal"><input id="reveal" type="checkbox"> Reveal the next 24 hours <span aria-hidden="true">↗</span></label><div id="outcome" role="status" aria-live="polite">Outcome hidden. Make your own assessment first.</div></div></section><section class="posts-panel" aria-labelledby="posts-title"><div class="posts-heading"><h3 id="posts-title">What was on X?</h3><span id="post-count" class="mono"></span></div><p id="sentiment" class="small muted"></p><div id="posts"></div><p class="small muted">Displayed examples are original posts timestamped before the cutoff, not a complete archive. Availability and missing data are reported below.</p></section></div>
-      <section class="chart-section" aria-labelledby="chart-title"><div class="chart-heading"><div><p class="eyebrow">THE WIDER TEST WINDOW</p><h3 id="chart-title">Probability, across the record</h3></div><div class="legend"><span class="market-key">Market only</span><span class="social-key">Market + X</span><span id="actual-key" hidden>○ Actual up / down</span></div></div><div id="chart"></div><p id="chart-caption" class="small muted"></p></section>
+    <header>
+      <a class="wordmark" href="./">HypeCheck</a>
+      <nav aria-label="Study resources">
+        <a href="https://github.com/adeviwon/hypecheck#readme">Write-up</a>
+        <a href="https://colab.research.google.com/github/adeviwon/hypecheck/blob/main/HypeCheck.ipynb">Colab notebook</a>
+      </nav>
+    </header>
+
+    <h1>Do X posts improve memecoin forecasts?</h1>
+    <p class="intro">We used yesterday’s archived posts to forecast whether 13 memecoins would rise. Adding post data reduced accuracy in this study.</p>
+    <dl class="study-summary" id="summary"></dl>
+    <p id="error" role="alert"></p>
+    <noscript><p>Enable JavaScript to use the replay and see the comparison tables.</p></noscript>
+
+    <section aria-labelledby="replay-title">
+      <h2 id="replay-title">Replay a historical forecast</h2>
+      <p class="muted">Start with DOGE on April 30, 2026. Read the previous day’s posts, compare both forecasts, then reveal the result.</p>
+      <div class="controls">
+        <label for="coin">Coin <select id="coin" disabled></select></label>
+        <label for="day">Forecast date (UTC) <select id="day" disabled></select></label>
+      </div>
+      <div class="replay-grid">
+        <div>
+          <h3>Posts used by the model</h3>
+          <div id="posts"></div>
+        </div>
+        <div>
+          <h3>Model estimates that the coin finishes up</h3>
+          <dl class="forecast" id="forecast"></dl>
+          <p id="delta"></p>
+          <button id="reveal" type="button" disabled>Reveal what happened</button>
+          <p id="outcome" role="status">Outcome hidden.</p>
+        </div>
+      </div>
+      <p class="muted">Up means the UTC day’s close is higher than its open. Market history uses earlier prices and volume. The models call up at 50% or higher. The estimates have no separate calibration check. Use the replay to compare forecasts with what happened.</p>
     </section>
-    <section id="results-section" class="results" aria-labelledby="results-title" hidden><div class="section-heading"><h2 id="results-title"><span class="section-number">02</span> Evidence, not a victory lap</h2><span class="tag">REPORTED EVALUATION</span></div><p id="evaluation-scope" class="muted"></p><div class="table-wrap" tabindex="0" role="region" aria-label="Evaluation metrics, scroll horizontally if needed"><table><caption>Reported model results · lower Brier score is better</caption><thead><tr><th scope="col">Model</th><th scope="col">Accuracy</th><th scope="col">Balanced accuracy</th><th scope="col">Brier score</th><th scope="col">Observations</th><th scope="col">Dates</th></tr></thead><tbody id="metrics"></tbody></table></div><p class="small muted">Accuracy is the fraction of correct directions; balanced accuracy weights both classes equally. Brier score measures squared probability error. These results do not establish profitability or future performance.</p><div id="extended"></div></section>
-    <section id="method" class="method" aria-labelledby="method-title"><div class="section-heading"><h2 id="method-title"><span class="section-number">03</span> Read the fine print</h2><span class="tag">DATA & LIMITATIONS</span></div><div class="method-grid"><div><h3>What made it into the record?</h3><p class="muted">No posts is missing information, not neutral sentiment. Coverage is the source report’s accounting, not a claim of exhaustive X access.</p><div id="coverage" class="table-wrap" tabindex="0" role="region" aria-label="Dataset coverage"></div></div><div><h3>Know the boundaries.</h3><ul id="limitations"><li>Historical replay only. Model probabilities are not investment recommendations.</li><li>Social sentiment and future returns are different quantities; confidence in one does not imply confidence in the other.</li></ul><dl id="provenance"></dl></div></div></section>
+
+    <section aria-labelledby="results-title">
+      <h2 id="results-title">How the forecasts performed</h2>
+      <p id="period" class="muted"></p>
+      <div class="scroll" tabindex="0" role="region" aria-label="Forecast results">
+        <table><thead><tr><th scope="col">Method</th><th scope="col">Accuracy</th><th scope="col">Balanced accuracy</th><th scope="col">Brier error ↓</th></tr></thead><tbody id="metrics"></tbody></table>
+      </div>
+      <p class="muted">Accuracy counts correct calls. Balanced accuracy gives up and not-up days equal weight. Brier error measures how far the model’s probabilities were from what happened. Lower is better.</p>
+      <p id="comparison"></p>
+      <details>
+        <summary>Results by post type</summary>
+        <p>We used keyword rules to group posts. Each test adds one group’s post count and average sentiment to market history and scores it on every test row. All four intervals include zero.</p>
+        <div class="scroll" tabindex="0" role="region" aria-label="Results by post type">
+          <table><thead><tr><th scope="col">Post type</th><th scope="col">Rows with this type</th><th scope="col">Brier change</th><th scope="col">95% interval</th></tr></thead><tbody id="kinds"></tbody></table>
+        </div>
+      </details>
+    </section>
+
+    <section aria-labelledby="limits-title">
+      <h2 id="limits-title">What limits the result</h2>
+      <p id="coverage"></p>
+      <p id="archive-note"></p>
+      <p class="muted">The team examined these dates in earlier work. This study is exploratory. FinTwitBERT assigns tone to post wording, and the direction models also use post count and whether the archive had posts. A tagged coin can be a passing mention.</p>
+      <p>This project is a prototype and is not financial advice.</p>
+    </section>
+    <footer>
+      <a href="https://github.com/adeviwon/hypecheck/blob/main/research/method.md">Method and sources</a>
+      <a href="headline-report.json">Full results</a>
+      <a href="archive.html">Five-coin archive</a>
+    </footer>
   </main>
-  <footer><span class="wordmark">hypecheck<span aria-hidden="true">↗</span></span><p>Less narrative. More evidence.</p><span class="mono">LOCAL DATA / NO LIVE SIGNAL</span></footer>
 </body>
 </html>

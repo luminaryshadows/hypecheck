@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-const html = readFileSync(new URL('./docs/index.html', import.meta.url), 'utf8');
+const html = readFileSync(new URL('./docs/archive.html', import.meta.url), 'utf8');
 const report = JSON.parse(readFileSync(new URL('./docs/report.json', import.meta.url), 'utf8'));
 
 function makeEl(tag) {

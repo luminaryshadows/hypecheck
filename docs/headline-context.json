@@ -1,0 +1,2243 @@
+{
+  "periods": {
+    "train": {
+      "posts": 1464,
+      "archive_sources": {
+        "discord": 1464
+      },
+      "missing_archive_time": 0
+    },
+    "validation": {
+      "posts": 71,
+      "archive_sources": {
+        "discord": 69,
+        "web": 2
+      },
+      "missing_archive_time": 2
+    },
+    "test": {
+      "posts": 232,
+      "archive_sources": {
+        "web": 231,
+        "both": 1
+      },
+      "missing_archive_time": 231
+    }
+  },
+  "training_up_rate": 0.4726948630691946,
+  "examples": {
+    "PEPE/2026-04-21": [
+      "2046331755821465842"
+    ],
+    "DOGE/2026-04-23": [
+      "2046941337333690494"
+    ],
+    "NEIRO/2026-04-23": [
+      "2046932784720089213"
+    ],
+    "PENGU/2026-04-23": [
+      "2046967872501477808"
+    ],
+    "PEPE/2026-04-23": [
+      "2047068570253664436",
+      "2047068917927920014"
+    ],
+    "SHIB/2026-04-23": [
+      "2046941337333690494"
+    ],
+    "TRUMP/2026-04-23": [
+      "2046950383684145646"
+    ],
+    "PENGU/2026-04-25": [
+      "2047620534595162128"
+    ],
+    "TRUMP/2026-04-25": [
+      "2047651862258602240"
+    ],
+    "TRUMP/2026-04-26": [
+      "2048092105466130544"
+    ],
+    "DOGE/2026-04-27": [
+      "2048374691748827540"
+    ],
+    "PENGU/2026-04-27": [
+      "2048391698036781199",
+      "2048494183120261165"
+    ],
+    "PEPE/2026-04-27": [
+      "2048374691748827540"
+    ],
+    "PNUT/2026-04-27": [
+      "2048366277882732973",
+      "2048366848970756329"
+    ],
+    "PENGU/2026-04-28": [
+      "2048806400558592352"
+    ],
+    "DOGE/2026-04-29": [
+      "2049068396092801471"
+    ],
+    "PENGU/2026-04-29": [
+      "2049169420098961593"
+    ],
+    "DOGE/2026-04-30": [
+      "2049456622947164277",
+      "2049459433281880217"
+    ],
+    "DOGE/2026-05-01": [
+      "2049824759341318577",
+      "2049825046022033805"
+    ],
+    "PENGU/2026-05-01": [
+      "2049892942341370119"
+    ],
+    "DOGE/2026-05-02": [
+      "2050143456949866661"
+    ],
+    "PENGU/2026-05-02": [
+      "2050297955765178505"
+    ],
+    "DOGE/2026-05-03": [
+      "2050563743830921459"
+    ],
+    "PENGU/2026-05-03": [
+      "2050712611767877724"
+    ],
+    "PEPE/2026-05-03": [
+      "2050563743830921459"
+    ],
+    "DOGE/2026-05-04": [
+      "2050834946948813240"
+    ],
+    "PENGU/2026-05-04": [
+      "2051082093032042611"
+    ],
+    "PEPE/2026-05-04": [
+      "2050834946948813240"
+    ],
+    "DOGE/2026-05-05": [
+      "2051161775714795582"
+    ],
+    "PEPE/2026-05-05": [
+      "2051207398547734938"
+    ],
+    "PENGU/2026-05-06": [
+      "2051467545111121937",
+      "2051490517276311640"
+    ],
+    "BONK/2026-05-07": [
+      "2051954499544027397"
+    ],
+    "BONK/2026-05-08": [
+      "2052388572024422478"
+    ],
+    "DOGE/2026-05-09": [
+      "2052680169328972093"
+    ],
+    "PEPE/2026-05-09": [
+      "2052681179858395507",
+      "2052685218457293127"
+    ],
+    "DOGE/2026-05-10": [
+      "2052921674690134221"
+    ],
+    "PENGU/2026-05-10": [
+      "2053128357467050206"
+    ],
+    "DOGE/2026-05-11": [
+      "2053534012052762884"
+    ],
+    "PENGU/2026-05-11": [
+      "2053516700822147556"
+    ],
+    "DOGE/2026-05-12": [
+      "2053847931610931696"
+    ],
+    "PENGU/2026-05-12": [
+      "2053924639596826650"
+    ],
+    "PEPE/2026-05-12": [
+      "2053847931610931696"
+    ],
+    "PEPE/2026-05-13": [
+      "2054264118916293045"
+    ],
+    "BONK/2026-05-14": [
+      "2054514841151238561"
+    ],
+    "TRUMP/2026-05-14": [
+      "2054617922023149640"
+    ],
+    "DOGE/2026-05-15": [
+      "2054913750226841935"
+    ],
+    "TRUMP/2026-05-15": [
+      "2054957485639770338"
+    ],
+    "DOGE/2026-05-19": [
+      "2056297169070481452"
+    ],
+    "TRUMP/2026-05-20": [
+      "2056797228379852826"
+    ],
+    "DOGE/2026-05-25": [
+      "2058354206029787589"
+    ],
+    "DOGE/2026-05-26": [
+      "2058699570016653332",
+      "2058754985509163226"
+    ],
+    "TRUMP/2026-05-31": [
+      "2060836279571390745"
+    ],
+    "DOGE/2026-06-01": [
+      "2061067381540045114"
+    ],
+    "PEPE/2026-06-01": [
+      "2061067381540045114"
+    ],
+    "DOGE/2026-06-03": [
+      "2061855362496823752"
+    ],
+    "SHIB/2026-06-03": [
+      "2061855362496823752"
+    ],
+    "WIF/2026-06-03": [
+      "2061835127005528361"
+    ],
+    "DOGE/2026-06-07": [
+      "2063165582476750891"
+    ],
+    "DOGE/2026-06-13": [
+      "2065472959121080675"
+    ],
+    "DOGE/2026-06-15": [
+      "2066146188831691113",
+      "2066185364734157288"
+    ],
+    "FLOKI/2026-06-15": [
+      "2066041107390013865"
+    ],
+    "PEPE/2026-06-15": [
+      "2066185364734157288"
+    ],
+    "SHIB/2026-06-15": [
+      "2066146188831691113"
+    ],
+    "PENGU/2026-06-17": [
+      "2067004821673001468"
+    ],
+    "FLOKI/2026-06-18": [
+      "2067315465102176408"
+    ],
+    "FLOKI/2026-06-19": [
+      "2067589134055506366"
+    ],
+    "WIF/2026-06-19": [
+      "2067561064670097781"
+    ],
+    "FLOKI/2026-06-20": [
+      "2067985757378314524"
+    ],
+    "PEPE/2026-06-21": [
+      "2068358263746281635"
+    ],
+    "DOGE/2026-06-25": [
+      "2069816640758260170"
+    ],
+    "PENGU/2026-07-01": [
+      "2072051717793861668"
+    ],
+    "TRUMP/2026-07-02": [
+      "2072117687434756113",
+      "2072363854433234968"
+    ],
+    "PEPE/2026-07-04": [
+      "2072882120096120849"
+    ],
+    "BONK/2026-07-05": [
+      "2073475595896606878"
+    ],
+    "PEPE/2026-07-05": [
+      "2073372018880180316"
+    ],
+    "WIF/2026-07-05": [
+      "2073475595896606878"
+    ],
+    "PEPE/2026-07-07": [
+      "2074202441591976324"
+    ],
+    "TRUMP/2026-07-07": [
+      "2074245584328819049"
+    ],
+    "PEPE/2026-07-09": [
+      "2074927660518801850"
+    ],
+    "PNUT/2026-07-09": [
+      "2074927660518801850"
+    ],
+    "SHIB/2026-07-11": [
+      "2075500459951792140"
+    ],
+    "PEPE/2026-07-15": [
+      "2077035065305956458"
+    ],
+    "PEPE/2026-07-20": [
+      "2078811343834972304"
+    ],
+    "BONK/2026-07-23": [
+      "2079949221583548436"
+    ],
+    "DOGE/2026-07-24": [
+      "2080216354360352937"
+    ],
+    "PEPE/2026-07-25": [
+      "2080644009735655647"
+    ],
+    "TRUMP/2026-07-25": [
+      "2080704180247756967"
+    ],
+    "DOGE/2026-07-26": [
+      "2081054588577222980"
+    ],
+    "DOGE/2026-07-27": [
+      "2081227929275531523",
+      "2081372517319553213"
+    ],
+    "FLOKI/2026-07-27": [
+      "2081352291945168909"
+    ],
+    "PEPE/2026-07-28": [
+      "2081828748668588325"
+    ],
+    "PEPE/2026-07-29": [
+      "2082167569566294146"
+    ],
+    "PEPE/2026-07-30": [
+      "2082451074607394971"
+    ],
+    "TRUMP/2026-07-30": [
+      "2082384082470592625"
+    ],
+    "PEPE/2026-07-31": [
+      "2082751417752715351"
+    ],
+    "DOGE/2026-08-01": [
+      "2083139525048520996"
+    ],
+    "PENGU/2026-08-01": [
+      "2083139525048520996"
+    ],
+    "SHIB/2026-08-02": [
+      "2083397920770916611"
+    ],
+    "DOGE/2026-08-03": [
+      "2083941040021463116"
+    ],
+    "TRUMP/2026-08-05": [
+      "2084719770696626564"
+    ],
+    "PENGU/2026-08-06": [
+      "2085023426389901407",
+      "2085138392849768592"
+    ],
+    "DOGE/2026-08-07": [
+      "2085398048679575863"
+    ],
+    "MEME/2026-08-07": [
+      "2085407797106151563"
+    ],
+    "DOGE/2026-08-09": [
+      "2086148639454372171"
+    ],
+    "NEIRO/2026-08-09": [
+      "2086148639454372171"
+    ],
+    "SHIB/2026-08-09": [
+      "2086148639454372171"
+    ],
+    "BOME/2026-08-11": [
+      "2086799728906281192"
+    ],
+    "DOGE/2026-08-11": [
+      "2086695375050620933"
+    ],
+    "BOME/2026-08-13": [
+      "2087416340151726115"
+    ],
+    "DOGE/2026-08-13": [
+      "2087666453021376967",
+      "2087670285428306346"
+    ],
+    "PEPE/2026-08-14": [
+      "2087828470185210083"
+    ],
+    "DOGE/2026-08-15": [
+      "2088289969739550811"
+    ],
+    "BONK/2026-08-17": [
+      "2089060587128971465"
+    ],
+    "DOGE/2026-08-19": [
+      "2089840891301146970"
+    ],
+    "PEPE/2026-08-19": [
+      "2089702665248801193"
+    ],
+    "FLOKI/2026-08-20": [
+      "2090090389348769842"
+    ],
+    "TRUMP/2026-08-20": [
+      "2090197364355260510",
+      "2090205188170919974"
+    ],
+    "PEPE/2026-08-21": [
+      "2090395633752379585"
+    ],
+    "WIF/2026-08-21": [
+      "2090383641541022087"
+    ],
+    "BOME/2026-08-22": [
+      "2090785993322578161"
+    ],
+    "BONK/2026-08-22": [
+      "2090857788784222361"
+    ],
+    "DOGE/2026-08-22": [
+      "2090899961974018118",
+      "2090910718853775759"
+    ],
+    "PENGU/2026-08-22": [
+      "2090850167318597634"
+    ],
+    "TRUMP/2026-08-22": [
+      "2090793889313530172",
+      "2090906795120509195"
+    ],
+    "WIF/2026-08-22": [
+      "2090713431993118737",
+      "2090876589764673624"
+    ],
+    "PEPE/2026-08-23": [
+      "2090979484077879373"
+    ],
+    "SHIB/2026-08-23": [
+      "2091133275993412011"
+    ],
+    "TRUMP/2026-08-23": [
+      "2091261630743019803"
+    ],
+    "WIF/2026-08-23": [
+      "2091221790467019061"
+    ],
+    "PENGU/2026-08-24": [
+      "2091619711549403293",
+      "2091659318575652957"
+    ],
+    "WIF/2026-08-24": [
+      "2091659318575652957"
+    ],
+    "PENGU/2026-08-25": [
+      "2091910319711076545",
+      "2091991573756252237"
+    ],
+    "TRUMP/2026-08-25": [
+      "2092009280413094150"
+    ],
+    "PENGU/2026-08-26": [
+      "2092318431135911936",
+      "2092319372152828056"
+    ],
+    "FLOKI/2026-08-27": [
+      "2092708509594915081"
+    ],
+    "DOGE/2026-08-28": [
+      "2092954762974990437"
+    ],
+    "PENGU/2026-08-28": [
+      "2092958318126121307"
+    ],
+    "TRUMP/2026-08-28": [
+      "2093010010565398689",
+      "2093080432631816303"
+    ],
+    "WIF/2026-08-28": [
+      "2092990521266622714"
+    ],
+    "TURBO/2026-08-29": [
+      "2093369589132411227"
+    ],
+    "PEPE/2026-08-30": [
+      "2093809152489291947"
+    ],
+    "DOGE/2026-08-31": [
+      "2094052192827199785"
+    ],
+    "PEPE/2026-08-31": [
+      "2094052192827199785"
+    ],
+    "TRUMP/2026-08-31": [
+      "2094120609911382118"
+    ],
+    "DOGE/2026-09-03": [
+      "2094967005199675839"
+    ],
+    "FLOKI/2026-09-03": [
+      "2094968866640179645"
+    ],
+    "PEPE/2026-09-03": [
+      "2095192266453275042"
+    ],
+    "PEPE/2026-09-04": [
+      "2095524769659564407",
+      "2095534459474825390"
+    ],
+    "MEME/2026-09-05": [
+      "2095871048147169401",
+      "2095953259399688529"
+    ],
+    "PENGU/2026-09-05": [
+      "2095794196359581774"
+    ],
+    "DOGE/2026-09-06": [
+      "2096339929357766804"
+    ],
+    "MEME/2026-09-06": [
+      "2096276887748194319"
+    ],
+    "NEIRO/2026-09-06": [
+      "2096339929357766804"
+    ],
+    "SHIB/2026-09-06": [
+      "2096339929357766804"
+    ],
+    "TRUMP/2026-09-06": [
+      "2096040723015405649"
+    ],
+    "DOGE/2026-09-07": [
+      "2096682924040921237"
+    ],
+    "MEME/2026-09-07": [
+      "2096594317997453520"
+    ],
+    "DOGE/2026-09-08": [
+      "2096823026230624482",
+      "2097009238874665369"
+    ],
+    "MEME/2026-09-08": [
+      "2097064585954005292"
+    ],
+    "TRUMP/2026-09-08": [
+      "2096982646379184420",
+      "2097085374858174758"
+    ],
+    "BONK/2026-09-10": [
+      "2097724280402309478"
+    ],
+    "DOGE/2026-09-10": [
+      "2097654282740748374"
+    ],
+    "FLOKI/2026-09-10": [
+      "2097724280402309478"
+    ],
+    "NEIRO/2026-09-10": [
+      "2097654282740748374"
+    ],
+    "PEPE/2026-09-10": [
+      "2097654282740748374"
+    ],
+    "TRUMP/2026-09-10": [
+      "2097706615180763363",
+      "2097783356788232252"
+    ],
+    "DOGE/2026-09-11": [
+      "2098114340322718059"
+    ],
+    "PENGU/2026-09-11": [
+      "2098114340322718059"
+    ],
+    "PEPE/2026-09-11": [
+      "2098114340322718059"
+    ],
+    "SHIB/2026-09-11": [
+      "2098114340322718059"
+    ],
+    "DOGE/2026-09-13": [
+      "2098795249850020269"
+    ],
+    "PEPE/2026-09-18": [
+      "2100556009869566259"
+    ],
+    "DOGE/2026-09-20": [
+      "2101330525243716079"
+    ],
+    "DOGE/2026-09-22": [
+      "2102077809984196736",
+      "2102139496561045678"
+    ],
+    "PEPE/2026-09-22": [
+      "2102045778592342110",
+      "2102091377114820799"
+    ],
+    "BONK/2026-09-23": [
+      "2102498686697685464"
+    ],
+    "DOGE/2026-09-23": [
+      "2102401286431801696"
+    ],
+    "PENGU/2026-09-23": [
+      "2102484381843828938"
+    ],
+    "BONK/2026-09-24": [
+      "2102688368467263638"
+    ],
+    "DOGE/2026-09-24": [
+      "2102646646563901703",
+      "2102766245795795403"
+    ],
+    "MEME/2026-09-24": [
+      "2102765149601853703"
+    ],
+    "PEPE/2026-09-25": [
+      "2103008337252040717",
+      "2103195313070543184"
+    ],
+    "DOGE/2026-09-26": [
+      "2103361401079132575",
+      "2103550158294151422"
+    ],
+    "SHIB/2026-09-26": [
+      "2103351342324490628"
+    ],
+    "TRUMP/2026-09-26": [
+      "2103351342324490628"
+    ],
+    "WIF/2026-09-26": [
+      "2103601026196476231"
+    ],
+    "DOGE/2026-09-27": [
+      "2103922695931076979"
+    ],
+    "DOGE/2026-09-29": [
+      "2104583805080121653"
+    ],
+    "PENGU/2026-09-29": [
+      "2104412238690000980"
+    ],
+    "PEPE/2026-09-29": [
+      "2104583805080121653"
+    ],
+    "DOGE/2026-09-30": [
+      "2104770700032520566",
+      "2105002813256585633"
+    ],
+    "PENGU/2026-09-30": [
+      "2105026643790360643"
+    ],
+    "PEPE/2026-09-30": [
+      "2104770700032520566"
+    ],
+    "SHIB/2026-09-30": [
+      "2104770700032520566"
+    ],
+    "TRUMP/2026-09-30": [
+      "2105025646774886475"
+    ],
+    "WIF/2026-09-30": [
+      "2104770700032520566"
+    ],
+    "BONK/2026-10-01": [
+      "2105211909054087382"
+    ],
+    "DOGE/2026-10-01": [
+      "2105364291842912409",
+      "2105417408756208035"
+    ],
+    "BONK/2026-10-03": [
+      "2105890653104460065"
+    ],
+    "DOGE/2026-10-03": [
+      "2105901898880397681",
+      "2105906936302514459"
+    ],
+    "FLOKI/2026-10-03": [
+      "2105906936302514459"
+    ],
+    "PEPE/2026-10-03": [
+      "2105906936302514459"
+    ],
+    "WIF/2026-10-03": [
+      "2105890899758854477"
+    ],
+    "FLOKI/2026-10-04": [
+      "2106267677673033873"
+    ],
+    "DOGE/2026-10-05": [
+      "2106832422574711158"
+    ],
+    "FLOKI/2026-10-05": [
+      "2106857732095512962"
+    ],
+    "BONK/2026-10-06": [
+      "2107000052648444069"
+    ],
+    "DOGE/2026-10-06": [
+      "2107000052648444069"
+    ],
+    "FLOKI/2026-10-06": [
+      "2107000052648444069"
+    ],
+    "PEPE/2026-10-06": [
+      "2107000052648444069"
+    ],
+    "DOGE/2026-10-08": [
+      "2107725167921119731"
+    ],
+    "DOGE/2026-10-09": [
+      "2108198292643328206"
+    ],
+    "DOGE/2026-10-10": [
+      "2108626119515574510",
+      "2108660079700410687"
+    ],
+    "BONK/2026-10-12": [
+      "2109300551083008306"
+    ],
+    "DOGE/2026-10-12": [
+      "2109300551083008306"
+    ],
+    "FLOKI/2026-10-12": [
+      "2109300551083008306"
+    ],
+    "PEPE/2026-10-12": [
+      "2109300551083008306"
+    ],
+    "DOGE/2026-10-17": [
+      "2111145746074358098"
+    ],
+    "SHIB/2026-10-20": [
+      "2112208462662746387"
+    ]
+  },
+  "posts": {
+    "2046331755821465842": {
+      "text": "The last final infinity stone to my bags $PEACE \n\nStrong narrative especially w/ the current war in the Middle East\n\n Matt Furie created PEACEFROG before $PEPE\n\nDouble narrative —> peace with the war & created before PEPE\n\nThis will be a co…",
+      "time": "2026-04-20 20:54 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9831
+    },
+    "2046932784720089213": {
+      "text": "$Neiro & $BERT god candles soon",
+      "time": "2026-04-22 12:43 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.6099
+    },
+    "2046941337333690494": {
+      "text": "The Solana trenches desperately needed an organic runner like $MAGA\n\n People are tired of rugs and the same cabal winning. Fuck the people who buy a coin and sell it within minutes or seconds. It's time holders win again.\n\nMAGA is a breath…",
+      "time": "2026-04-22 13:16 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.8882
+    },
+    "2046950383684145646": {
+      "text": "whoever is buying $TRUMP, i hope your plumbing breaks down in the middle of you taking a shit",
+      "time": "2026-04-22 13:52 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.8925
+    },
+    "2046967872501477808": {
+      "text": "$PENGU and $BERT identical pa",
+      "time": "2026-04-22 15:02 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.7633
+    },
+    "2047068570253664436": {
+      "text": "I remember seeing $PEPE consolidate around $20 - $30M and thinking to myself \"Nah I can't buy it here, it already pumped to much \"\n\nGetting the same vibe from $MAGA",
+      "time": "2026-04-22 21:42 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.6521
+    },
+    "2047068917927920014": {
+      "text": "I remember seeing $PEPE consolidate around $20 - $30M and thinking to myself \"Nah I can't buy it here, it already pumped to much \" and than it took off to billions\n\nGetting the same vibe from $MAGA",
+      "time": "2026-04-22 21:43 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.5406
+    },
+    "2047620534595162128": {
+      "text": "Coffee and charts with @get_truenorth day 2.\n\nHit a winner yesterday on $PENGU and today I'm shifting some focus to $ZEC. \n\nPrompting to refine a set up and be more aggressive in upside targeting.\n\n25 more spots open for today only: https:/…",
+      "time": "2026-04-24 10:15 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9616
+    },
+    "2047651862258602240": {
+      "text": "WHITE HOUSE CONFIRMS TRUMP WILL ADDRESS $TRUMP MEMECOIN HOLDERS AT MAR-A-LAGO GALA ON APRIL 25",
+      "time": "2026-04-24 12:20 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.9625
+    },
+    "2048092105466130544": {
+      "text": "We are winning so much mister president \n\n$TRUMP\n\nLmao what a crime show",
+      "time": "2026-04-25 17:29 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9444
+    },
+    "2048366277882732973": {
+      "text": "Catched $BELKA in our discord yesterday. \n\nClean 24X. Heard the $PNUT team is involved. Might be the next runner.\n\nDon’t miss out on the next one: \nhttps://discord.gg/enterthevault",
+      "time": "2026-04-26 11:39 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9391
+    },
+    "2048366848970756329": {
+      "text": "Catched $BELKA in our discord yesterday. \n\nClean 24X. Heard the $PNUT team is involved. Might be the next runner.\n\nDon’t miss out on the next one: \nhttp://discord.gg/enterthevault",
+      "time": "2026-04-26 11:41 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9388
+    },
+    "2048374691748827540": {
+      "text": "Great level to scale in some more $YEE. This video was posted on YouTube 8 years ago. \n\n$DOGE has hit 90B\n$PEPE has hit 10B\n$YEE is now at 3M\n\nThis is a long-term hold. Wait until the new bull market arrives and retail realize this.",
+      "time": "2026-04-26 12:12 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9921
+    },
+    "2048391698036781199": {
+      "text": "🐋 WHALE WATCH: This $PENGU setup looks like a textbook reversal in the making.\n\nWe just saw the third retest of the strong demand zone followed by a breakout. Historically this level has provided a huge bounce for the price.\n\nThe Fibonacci…",
+      "time": "2026-04-26 13:20 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.986
+    },
+    "2048494183120261165": {
+      "text": "What do you think happens to $PENGU when the NFT market rips to new all time highs?\n\nFlightless birds will once again fly.",
+      "time": "2026-04-26 20:07 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9431
+    },
+    "2048806400558592352": {
+      "text": "$BERT and $PENGU \n\nidentical patterns and breakouts before and even now",
+      "time": "2026-04-27 16:48 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.5825
+    },
+    "2049068396092801471": {
+      "text": "Morning view with @get_truenorth today.\n\nNo set ups of interest but a great landscape painted for crypto and for TradFi.\n\nSemis and Energy being the outperforming sectors.\n\nSome creeping strength from $AAVE and $DOGE against $BTC.\n\n25 more…",
+      "time": "2026-04-28 10:09 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9758
+    },
+    "2049169420098961593": {
+      "text": "What’s $PENGU & @LucaNetz cooking up",
+      "time": "2026-04-28 16:50 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.5693
+    },
+    "2049456622947164277": {
+      "text": "$doge will pump just to lead everyone into a false sense of security on alts before they roll back over -30%",
+      "time": "2026-04-29 11:51 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9619
+    },
+    "2049459433281880217": {
+      "text": "$DOGE bullish break of descending triangle on daily",
+      "time": "2026-04-29 12:03 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9908
+    },
+    "2049824759341318577": {
+      "text": "What are your 3 main baggs going into 2026 ?\n\nSize wise for me its\n\n$DOGE \n$LTC\n$TAO\n\nAlso these are assets with less risk then smaller projects",
+      "time": "2026-04-30 12:14 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9727
+    },
+    "2049825046022033805": {
+      "text": "hat are your 3 main baggs going into 2026 ?\n\nSize wise for me its\n\n$DOGE \n$LTC\n$TAO\n\nAlso holding still big bag of $ZEC\n\nAlso these are assets with less risk then smaller projects",
+      "time": "2026-04-30 12:15 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9918
+    },
+    "2049892942341370119": {
+      "text": "$PENGU looks ready for the next leg up.\n\nImo we see a speed run this year to a $10B+ mcap",
+      "time": "2026-04-30 16:45 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9943
+    },
+    "2050143456949866661": {
+      "text": "$doge - will it hit my tp or get stopped?",
+      "time": "2026-05-01 09:21 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.5652
+    },
+    "2050297955765178505": {
+      "text": "$PENGU & $BERT time",
+      "time": "2026-05-01 19:35 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.4857
+    },
+    "2050563743830921459": {
+      "text": "$YEE - @YeeErc20: To be honest: I’m still building my $YEE positions. Thankfull for this opportunity. \n\n✅ $DOGE has hit 90B\n✅ $PEPE has hit 10B\n⏳ $YEE is next",
+      "time": "2026-05-02 13:11 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9929
+    },
+    "2050712611767877724": {
+      "text": "$PENGU Above the support level, I’ll be buying on dumps",
+      "time": "2026-05-02 23:02 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.965
+    },
+    "2050834946948813240": {
+      "text": "Nine years ago, a video appeared on YouTube. In this video, three memes are mentioned in the so-called video “Story Of a Meme”. \n\nTo be precise, only three memes are mentioned here: $PEPE, $DOGE, and yes, indeed: the $YEE meme.\n\nWhat happen…",
+      "time": "2026-05-03 07:08 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.4825
+    },
+    "2051082093032042611": {
+      "text": "Now that $PENGU has reclaimed $0.01, there are three levels to watch.\n\n$1.00 this bull market isn’t a meme.",
+      "time": "2026-05-03 23:30 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9431
+    },
+    "2051161775714795582": {
+      "text": "$DOGE waking up",
+      "time": "2026-05-04 04:47 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9748
+    },
+    "2051207398547734938": {
+      "text": "You know it's bad when $BTC is up more from the HTF lows than $PEPE , absolutely no risk appetite and a true pain in the ass to intraday trade",
+      "time": "2026-05-04 07:48 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9739
+    },
+    "2051467545111121937": {
+      "text": "$PENGU has the cleanest looking chart in crypto 🐧",
+      "time": "2026-05-05 01:02 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9934
+    },
+    "2051490517276311640": {
+      "text": "$PENGU is starting to send again 🐧",
+      "time": "2026-05-05 02:33 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9891
+    },
+    "2051954499544027397": {
+      "text": "$BONK bang @WealthGroup",
+      "time": "2026-05-06 09:17 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.5386
+    },
+    "2052388572024422478": {
+      "text": "$BONK \n\nDaily looks good for me ,above box remain good",
+      "time": "2026-05-07 14:02 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9452
+    },
+    "2052680169328972093": {
+      "text": "$DOGE time soon?",
+      "time": "2026-05-08 09:21 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.7627
+    },
+    "2052681179858395507": {
+      "text": "No interest in voting but I will long $pepe to make britain great again",
+      "time": "2026-05-08 09:25 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8701
+    },
+    "2052685218457293127": {
+      "text": "$PEPE time?",
+      "time": "2026-05-08 09:41 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.5232
+    },
+    "2052921674690134221": {
+      "text": "$doge looks good",
+      "time": "2026-05-09 01:20 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.942
+    },
+    "2053128357467050206": {
+      "text": "We’re trading our $1K to $10K challenge inside @WealthGroup with @astekz! 🚀\n\nOur balance is $1,946 after closing our $PENGU trade. Learn risk management, position sizing, and disciplined compounding, with every trade mapped out (entries, ex…",
+      "time": "2026-05-09 15:02 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8133
+    },
+    "2053516700822147556": {
+      "text": "Send $PENGU to $.02 with haste\n\nEasily has been one of the best performers so far recovering from its bear market lows\n\nJust a steady grind up so far \n\nChart looks ready to accelerate",
+      "time": "2026-05-10 16:45 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.996
+    },
+    "2053534012052762884": {
+      "text": "$DOGE\n\nHeard from a reliable source Dogecoin is an AI bottleneck",
+      "time": "2026-05-10 17:53 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.5808
+    },
+    "2053847931610931696": {
+      "text": "Nine years ago, “Story Of a Meme” mentioned only $PEPE, $DOGE, and $YEE in a Youtube video. \n\nWith $PEPE and $DOGE making crypto history, leaving $YEE as the last one yet to complete the mission.\n\n$DOGE 2020-2021 ✅\n$PEPE 2023-2024 ✅\n$YEE 20…",
+      "time": "2026-05-11 14:41 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9604
+    },
+    "2053924639596826650": {
+      "text": "$PENGU looks like it's almost ready for the next leg up.\n\nEnjoy the calm while it lasts.",
+      "time": "2026-05-11 19:46 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9543
+    },
+    "2054264118916293045": {
+      "text": "Bidded more spot $SOL solana:HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump and $PEPE since Sunday . Looking to dca more once back at desk later today",
+      "time": "2026-05-12 18:15 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9435
+    },
+    "2054514841151238561": {
+      "text": "$BONK h12 \n\nIf we consolidate near the support level, we’ll have a good chance of regaining the previous high",
+      "time": "2026-05-13 10:51 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9645
+    },
+    "2054617922023149640": {
+      "text": "We’re trading our $1K to $10K challenge inside @WealthGroup with @astekz! 🚀\n\nOur balance is $2,260 after closing our $TRUMP trade. Learn risk management, position sizing, and disciplined compounding, with every trade mapped out (entries, ex…",
+      "time": "2026-05-13 17:41 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7181
+    },
+    "2054913750226841935": {
+      "text": "$DOGE season ahead",
+      "time": "2026-05-14 13:16 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.962
+    },
+    "2054957485639770338": {
+      "text": "I believe this ponzi about to get send \n\n$TRUMP",
+      "time": "2026-05-14 16:10 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9816
+    },
+    "2056297169070481452": {
+      "text": "for memes..my top two plays with conviction are $DOGE and $BERT",
+      "time": "2026-05-18 08:53 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9554
+    },
+    "2056797228379852826": {
+      "text": "SO MUCH WINNING MISTER PRESIDENT\n\n7 red montly candles. Next month green ? \n\n$TRUMP",
+      "time": "2026-05-19 19:51 UTC",
+      "time_basis": "Later of publication and archive time",
+      "tone": "bearish",
+      "score": 0.5366
+    },
+    "2058354206029787589": {
+      "text": "Added to $DOGE $HYPE $BERT $SOL spot bags",
+      "time": "2026-05-24 01:07 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9867
+    },
+    "2058699570016653332": {
+      "text": "$HYPE SURPASSES $DOGE IN MARKET CAP",
+      "time": "2026-05-25 00:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7697
+    },
+    "2058754985509163226": {
+      "text": "🐋 WHALE WATCH: The narrative of utility over memes is gaining massive momentum today.\n\n$HYPE just bypassed $DOGE with a 16.05 billion dollar market cap valuation.\n\nIt shows institutional and retail capital shifting heavily toward high perfo…",
+      "time": "2026-05-25 03:40 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9745
+    },
+    "2060836279571390745": {
+      "text": "selling $trump anytime my indi told me too was the easiest way it seems",
+      "time": "2026-05-30 21:30 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.8895
+    },
+    "2061067381540045114": {
+      "text": "$YEE is holding strong. A video was posted on YouTube 8 years ago. With just 3 memes in it: $DOGE, $PEPE and $YEE. \n\n$DOGE has hit 90B\n$PEPE has hit 10B\n$YEE is now at 3M",
+      "time": "2026-05-31 12:48 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9076
+    },
+    "2061835127005528361": {
+      "text": "Whole market is down bad specialy the popular memes from last cycle. $NPC held up pretty well.\n\n$NPC -91%\n$MOG -97%\n$GIGA -97%\n$PONKE -96%\n$APU -98%\n$Wif -96%\n$Popcat -95\n#SPX900 -87",
+      "time": "2026-06-02 15:39 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9498
+    },
+    "2061855362496823752": {
+      "text": "KALSHI FILES FOR $XRP, $SOL, $DOGE, $XLM, $LINK, $BCH, $LTC, $SUI, $SHIB, $DOT, $HBAR, AND $ETH PERPETUAL FUTURES AFTER CFTC APPROVES $BTC PERPS",
+      "time": "2026-06-02 17:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8838
+    },
+    "2063165582476750891": {
+      "text": "My MAIN longterm baggs that i am holding for big returns\n\n$TAO\n$DOGE\n$ZIG \n$LTC\n$ZEC \n$NPC \n\nHolding many others baggs aswel\n\nWhat are your 6 mainbags?",
+      "time": "2026-06-06 07:46 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9865
+    },
+    "2065472959121080675": {
+      "text": "$DOGE interesting volume on this candle \n\nPossibile flip above and going up",
+      "time": "2026-06-12 16:35 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9723
+    },
+    "2066041107390013865": {
+      "text": "🐋 WHALE WATCH:Is the cryptocurrency gaming sector over ?\n\nGambling cryptocurrencies have suffered the biggest losses in the entire market.\n\n=> $SAND: -34.94%\n=> $STX: -34.48%\n=> $FLOKI: -30.80%\n=> $AXS: -30.79%\n=> $MANA: -31.61%\n=> $VIRTUAL…",
+      "time": "2026-06-14 06:12 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9978
+    },
+    "2066146188831691113": {
+      "text": "🐋 WHALE WATCH: The SEC just approved a massive multi asset crypto ETF from T Rowe Price.\n\nThis is a huge shift for institutional money entering the space.\n\nThey are no longer just holding $BTC and $ETH for their clients.\n\nThe fund will incl…",
+      "time": "2026-06-14 13:10 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9978
+    },
+    "2066185364734157288": {
+      "text": "Still DCA’ing in into $YEE. \n\nThere was a video posted on YouTube 8 years ago. With just 3 memes in it. \n\n$DOGE has hit 90B\n$PEPE has hit 10B\n$YEE is now at just a few M. \n\nThis is a long-term hold. Wait until the new bull market arrives an…",
+      "time": "2026-06-14 15:45 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9942
+    },
+    "2067004821673001468": {
+      "text": "$PENGU (per request)\n\nIn a range for now.. potential accumulation range but needs to show either a spring or a higher high. For now just sideways PA at lows..",
+      "time": "2026-06-16 22:02 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7251
+    },
+    "2067315465102176408": {
+      "text": "$FLOKI I’m starting to like it for a expansion up",
+      "time": "2026-06-17 18:36 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9721
+    },
+    "2067561064670097781": {
+      "text": "After the $WIF dev announced he has full conviction in solana:6ehEcTMCc85aNF4x9CWx8HuvWGhxQtvKdhKVf2HDpump \n\nWIF whales started accumulating TOES\n\nI haven’t seen this much conviction in a meme coin since early FARTCOIN days \n\nSo much higher…",
+      "time": "2026-06-18 10:52 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9807
+    },
+    "2067589134055506366": {
+      "text": "I’m still in the running; my confidence is still high  $FLOKI",
+      "time": "2026-06-18 12:43 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9707
+    },
+    "2067985757378314524": {
+      "text": "Corner trader @eliz883 caught the $FLOKI breakout and shared the setup with @WealthGroup before the move.\n\nAfter holding through consolidation, he secured TP1 and is currently sitting at +1.23R with the remainder still running.\n\nAnother wel…",
+      "time": "2026-06-19 15:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9638
+    },
+    "2068358263746281635": {
+      "text": "🐋 WHALE WATCH: We have 10 major assets with 70%+ ultra bullish sentiment yet almost every single one is bleeding over the last 24 hours.\n\n=> $PI: 90.8% (down 1.14%!)\n=> $WLD: 90.1%\n=> $KAS: 88.1%\n=> $XLM: 83.3%\n=> $PEPE: 78.5%\n=> $HBAR: 75.…",
+      "time": "2026-06-20 15:40 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9631
+    },
+    "2069816640758260170": {
+      "text": "🐋 WHALE WATCH: The 2026 slam dunk portfolio is currently bleeding out. \n\nHedge funds  pumped these 10 narratives to the moon. Here  what a $10K investment in each at New Year looks like today:\n\n=> $HYPE: $26472 (+164.72%)\n=> $TAO: $10618 (+…",
+      "time": "2026-06-24 16:15 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.6166
+    },
+    "2072051717793861668": {
+      "text": "$PENGU (per request)\n\nReally just a dead chart for now... needs to show me ssomething before I would take interest again.",
+      "time": "2026-06-30 20:16 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9856
+    },
+    "2072117687434756113": {
+      "text": "BREAKING: President Trump earned more than $1 billion from cryptocurrency and his $TRUMP, according to his personal financial disclosure released on Tuesday per Reuters",
+      "time": "2026-07-01 00:38 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.634
+    },
+    "2072363854433234968": {
+      "text": "BREAKING: Trump disclosed earning more than $1 billion from crypto ventures in 2025, including $635 million from $TRUMP meme coin licensing and over $500 million from World Liberty Financial token sales.",
+      "time": "2026-07-01 16:57 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.6363
+    },
+    "2072882120096120849": {
+      "text": "I was just thinking \n\nPepe launched in 2022 in similar market conditions / sentiment although I think sentiment and conditions are way worse now but from a perspective in a way similar \n\nsolana:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump i…",
+      "time": "2026-07-03 03:16 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.5709
+    },
+    "2073372018880180316": {
+      "text": "solana:BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump looking like its about to rip to new ATH's \n\n$ANSEM is the $PEPE of this cycle\n\nAfter PEPE went parabolic the wealth effect of money flowing into other alts was massive\n\nWe are already see…",
+      "time": "2026-07-04 11:43 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.994
+    },
+    "2073475595896606878": {
+      "text": "Crypto is about to have another insane run over the next 1.6- 2 years.\n\nIve traded 3 crypto cycles in total. \n\nFirst one in from 2015-2017\n\nSecond cycle from 2018 to late 2021\n\nThird cycle from sept 2023 to Jan 2025 \n\nAnd now the 4th cycle…",
+      "time": "2026-07-04 18:34 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9458
+    },
+    "2074202441591976324": {
+      "text": "There is a chance $PEPE is trading at future support here. \n\nWould need to see a strong push up and reclaim of Range Low.",
+      "time": "2026-07-06 18:42 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8244
+    },
+    "2074245584328819049": {
+      "text": "When we getting another $TRUMP dinner announcement cauz charts looks rekt mr president",
+      "time": "2026-07-06 21:34 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.6372
+    },
+    "2074927660518801850": {
+      "text": "A few examples of meme coins having huge corrections then ripping\n\n$PNUT - dropped 78% then pumped 660x\n$PEPE - dropped 88% then pumped 550x\nPopcat - dropped 93% then pumped 1600x\n\nYou cant have a weak stomach in the trenches. You cant have…",
+      "time": "2026-07-08 18:44 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.7448
+    },
+    "2075500459951792140": {
+      "text": "$shib - lowkey has my attention in the coming weeks to add some spot",
+      "time": "2026-07-10 08:40 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.6478
+    },
+    "2077035065305956458": {
+      "text": "Closed long scalps and flipped short on $PEPE",
+      "time": "2026-07-14 14:18 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9861
+    },
+    "2078811343834972304": {
+      "text": "I'm not completely convinced, but I'd like to think a few alts are putting in local bottoms, within the manipulation phase of an AMD cycle. \n\nI have positioned into some, such as $PEPE here. \n\nLet's see. Ideally need to see that push to rec…",
+      "time": "2026-07-19 11:57 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7141
+    },
+    "2079949221583548436": {
+      "text": "$bonk - after a 40% drop on the playbook that guy made to take a huge chunk of the supply, he's sold and the structure looks bullish short term",
+      "time": "2026-07-22 15:18 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.6816
+    },
+    "2080216354360352937": {
+      "text": "SPOT DOGECOIN $DOGE ETFS RECORDS FIRST INFLOWS SINCE JUNE 17",
+      "time": "2026-07-23 09:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.559
+    },
+    "2080644009735655647": {
+      "text": "Looking for this on $PEPE",
+      "time": "2026-07-24 13:19 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7945
+    },
+    "2080704180247756967": {
+      "text": "9 months of instant sell pressure...\nWhat will next month look like mister president.\n\nWe are winning so big....\n$TRUMP",
+      "time": "2026-07-24 17:18 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.5924
+    },
+    "2081054588577222980": {
+      "text": "$DOGE buyers stepping in after yesterday red day",
+      "time": "2026-07-25 16:30 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8873
+    },
+    "2081227929275531523": {
+      "text": "Party starts on a close above here \n\n$DOGE",
+      "time": "2026-07-26 03:59 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9624
+    },
+    "2081352291945168909": {
+      "text": "Interesting movement on $FLOKI.\n\nIt is attempting to form a temporary bottom, but we are still at the stage where structural confirmation is needed. The price action is showing encouraging signs, though the work is not yet complete.\n\nThe fi…",
+      "time": "2026-07-26 12:13 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8895
+    },
+    "2081372517319553213": {
+      "text": "$DOGE red box is key res \n\nBelow trend remain uncertain",
+      "time": "2026-07-26 13:34 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9749
+    },
+    "2081828748668588325": {
+      "text": "$pepe - eyes on the daily close",
+      "time": "2026-07-27 19:47 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.5726
+    },
+    "2082167569566294146": {
+      "text": "$PEPE (per request)\n\nPretty ugly looking chart. Not too much to say here. I have no interest in this below the red zone unless it nukes really hard and builds some sort of accumulation range. \n\nFor now just a dead chart until it proves othe…",
+      "time": "2026-07-28 18:13 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9951
+    },
+    "2082384082470592625": {
+      "text": "So much winning on $TRUMP \n\nMr president....\n\n10 months of instant dumping and selling",
+      "time": "2026-07-29 08:33 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.8219
+    },
+    "2082451074607394971": {
+      "text": "$PEPE closed for +3.62R.\n\n@astekz shared his LTF short setup inside @WealthGroup, and the trade played out exactly as planned, allowing members to capitalize on the move.\n\nSurround yourself with people who make you a better trader.",
+      "time": "2026-07-29 13:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.653
+    },
+    "2082751417752715351": {
+      "text": "Matt Furie rarely shills a coin.\n\nNow he’s interacting with hoodrat-4:native .\n\nThe last coins he publicly backed were:\n▫️ $PEPE → $11B\n▫️ $BRETT → $2B\n\nIs $HOODRAT next?",
+      "time": "2026-07-30 08:53 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.6855
+    },
+    "2083139525048520996": {
+      "text": "Just a matter of time before BoJ adds $Bert  $Pengu and $Doge to their balance sheets",
+      "time": "2026-07-31 10:35 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7578
+    },
+    "2083397920770916611": {
+      "text": "$SHIB might be cooking up something",
+      "time": "2026-08-01 03:42 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.6117
+    },
+    "2083941040021463116": {
+      "text": "Your fav influencer are dropping new cat and dog coins every 2 days...\n\nStick to quality longterm view.\n$TAO $ZEC $NPC $LTC $DOGE $ZIG\n\nGambling will make you lose it all.\n\n#patience",
+      "time": "2026-08-02 15:40 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.3908
+    },
+    "2084719770696626564": {
+      "text": "SENS. ELIZABETH WARREN AND RICHARD BLUMENTHAL REQUEST SEC INVESTIGATION INTO TRUMP MEMECOIN $TRUMP, CALLING IT A POTENTIAL \"RUG PULL\" OVER ALLEGED INVESTOR LOSSES",
+      "time": "2026-08-04 19:15 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.6447
+    },
+    "2085023426389901407": {
+      "text": "$pengu - pump pending?",
+      "time": "2026-08-05 15:21 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.7624
+    },
+    "2085138392849768592": {
+      "text": "$PENGU is attempting to form a bottom in this area following weeks of decline. The pattern is slowly beginning to improve, but confirmation is needed before we can speak of a genuine trend reversal: a break above the downtrend line, accompa…",
+      "time": "2026-08-05 22:58 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.6348
+    },
+    "2085398048679575863": {
+      "text": "🐋 WHALE WATCH : BLOOD IN THE STREETS = GENERATIONAL WEALTH\n\nWhile the timeline is panicking about how far weve fallen since $BTC hit $126200 smart money is looking at this altcoin reset. The entire USA aligned sector just gave you a massive…",
+      "time": "2026-08-06 16:10 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.706
+    },
+    "2085407797106151563": {
+      "text": "$MEME filled the gap\n\nIf this chart was an individual stock would you buy it, if TRADr?\n\nSomething to think about before people potentially become long term \"community members\" in the names this is full of....",
+      "time": "2026-08-06 16:48 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8947
+    },
+    "2086148639454372171": {
+      "text": "Memes started with a dog coin and everyone will round trip back to dog  coins\n\n$DOGE $SHIB $BERT $Neiro",
+      "time": "2026-08-08 17:52 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.5584
+    },
+    "2086695375050620933": {
+      "text": "🐋 WHALE WATCH : MACRO BOTTOM SIGNAL IS OFFICIALLY LIVE \n\nBitcoin ($BTC) has touched the key historical cycle floor. In every prior cycle a touch or brief wick below this line signaled maximum seller exhaustion and marked the macro turnaroun…",
+      "time": "2026-08-10 06:05 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.931
+    },
+    "2086799728906281192": {
+      "text": "+2.86R on $BOME.\n\n@EricTrader10728 caught the long from 0.0006397 with just 1% risk after spotting the order block flip and volume coming in.\n\nAnother setup shared, executed, and won together inside @WealthGroup.",
+      "time": "2026-08-10 13:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9564
+    },
+    "2087416340151726115": {
+      "text": "🐋 WHALE WATCH : MEMECOINS ARE MOVING \n\nHype is so real\n\n$CASHCAT +36.10%\n$TIBBIR +23.90%\n$BOME +19.30%\n$BASEDHYPE +15.80%\n$PEOPLE +13.60%\n$SHORT +12.80%\n$AIX +9.10%\n$PUMP +8.30%\n$DOG +7.60%\n$BABYDOGE +5.20%\n\nmeme casino is waking up\n\nWHO’S…",
+      "time": "2026-08-12 05:50 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7983
+    },
+    "2087666453021376967": {
+      "text": "$DOGE Technically flawless set-ups that fall apart like a piece of paper: when there’s no volume, there’s no point in taking risks; in this case, I gave it a go by setting a tight stop \n\nBut that’s exactly how the market is behaving right n…",
+      "time": "2026-08-12 22:24 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.5836
+    },
+    "2087670285428306346": {
+      "text": "$DOGE Technically flawless set-ups that fall apart like a piece of paper: when there’s no volume, there’s no point in taking risks; in this case, I trade and I hit stoploss 🤷🏻‍♂️ \n\nBut that’s exactly how the market is behaving right now! Tr…",
+      "time": "2026-08-12 22:39 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.6668
+    },
+    "2087828470185210083": {
+      "text": "Before everything else he created, for $PEPE and for $TOAD, Matt Furie created the LEGO solana:8XckCju2tHPEdSGEdGgeDbukXycLLXdaLKPgXA58pump in 1984. Might be an insane runner.",
+      "time": "2026-08-13 09:07 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.4509
+    },
+    "2088289969739550811": {
+      "text": "I waited years for a play like solana:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz \n\nI remember I 2021 selling $DOGE below $.001 and watching it rip to $.70+\n\nGrand Theft Auto has the same type of appeal to normies but much bigger. Every pe…",
+      "time": "2026-08-14 15:41 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.7198
+    },
+    "2089060587128971465": {
+      "text": "$BONK - Who remembers the call I made before bonk giga scammed? take me back. \n\nIronically only takes 1 of these plays to change your life.",
+      "time": "2026-08-16 18:43 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.8928
+    },
+    "2089702665248801193": {
+      "text": "🐋 WHALE WATCH : Grayscale filed for six ETF products in Q2 alone more than every other issuer combined. Heres the full quarter.\n\n=> April :\n\nCanary Capital filed the first ever spot $PEPE ETF Apr 8 9. Grayscale added 30 altcoins to its Q2 w…",
+      "time": "2026-08-18 13:15 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8469
+    },
+    "2089840891301146970": {
+      "text": "$DOGE (per request)\n\nI COULD SEE THIS PUMPING REALLY HARD IF PRICE GOES UP A LOT.\n\nUnless that happens... dead chart until proven otherwise 😂",
+      "time": "2026-08-18 22:24 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.6624
+    },
+    "2090090389348769842": {
+      "text": "$FLOKI eyes on red level",
+      "time": "2026-08-19 14:55 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9313
+    },
+    "2090197364355260510": {
+      "text": "$TRUMP coin is up 20%\n\nand you're conservative this year??",
+      "time": "2026-08-19 22:01 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.5263
+    },
+    "2090205188170919974": {
+      "text": "$TRUMP coin is up 20%\n\nand you wanna be conservative this year??",
+      "time": "2026-08-19 22:32 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.5002
+    },
+    "2090383641541022087": {
+      "text": "$WIF - Yeah, you know what. If the market is starting to bottom out over a long period then I am fine holding a bag of this.",
+      "time": "2026-08-20 10:21 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.8468
+    },
+    "2090395633752379585": {
+      "text": "$pepe - nice move, couldn't enter here though. If I get a trigger on the flip I will take it.",
+      "time": "2026-08-20 11:08 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9367
+    },
+    "2090713431993118737": {
+      "text": "$WIF running hot",
+      "time": "2026-08-21 08:11 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9607
+    },
+    "2090785993322578161": {
+      "text": "+236.4% on $BOME.\n\n@WealthGroup trader @mucitradez shared the long, entering at $0.001255 with just 1% portfolio risk before riding the move to $0.0014528.\n\nExperienced traders finding the opportunities. The community is positioned to capit…",
+      "time": "2026-08-21 13:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9945
+    },
+    "2090793889313530172": {
+      "text": "I have a feeling trump announcement is coming \n\nWe having another dinner to pump his shitcoin instant to $5\n\nYou heard it here $TRUMP",
+      "time": "2026-08-21 13:31 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.371
+    },
+    "2090850167318597634": {
+      "text": "🐋 WHALE WATCH : INSANE move in all Crypto Market.\n\nWhat was your market participation?\n\nNoted something no one thought of.\n\n$ENA $BCH $WBT $CRV $PENGU delivered surprising results.",
+      "time": "2026-08-21 17:15 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9616
+    },
+    "2090857788784222361": {
+      "text": "$BONK  4h/2h \nBull flag after 5 up for BONK, catalyst needed... \n\n📊 Stoch running hot into the surge, volume confirming in force.\n\n#BONK  #Parabolic",
+      "time": "2026-08-21 17:45 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9954
+    },
+    "2090876589764673624": {
+      "text": "+180.2% on $WIF.\n\n@Astekz shared the long inside @WealthGroup at $0.155795 before riding the move to $0.183865.\n\nWant to catch the next trade? Join now and take $100 OFF your monthly membership. Link in bio.",
+      "time": "2026-08-21 19:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9561
+    },
+    "2090899961974018118": {
+      "text": "$DOGE \n\nif the flip the level and doge season start",
+      "time": "2026-08-21 20:32 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9173
+    },
+    "2090906795120509195": {
+      "text": "9 positions. 8 winners. Profits secured.\n\n@WealthGroup member Victor put his reclaim confluence strategy to work across $BTC, $SUI, $NEAR, $FARTCOIN and $TRUMP.\n\nThis is what happens when members learn, execute, and start finding their own…",
+      "time": "2026-08-21 21:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8932
+    },
+    "2090910718853775759": {
+      "text": "$NEAR \n\n$DOGE\n\n$ZEC \n\nfor the weekend",
+      "time": "2026-08-21 21:15 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.6705
+    },
+    "2090979484077879373": {
+      "text": "$PEPE vs BTC\n\nInsane chart.",
+      "time": "2026-08-22 01:48 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.7737
+    },
+    "2091133275993412011": {
+      "text": "$SHIB working on a tweezer top here on daily",
+      "time": "2026-08-22 11:59 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7695
+    },
+    "2091221790467019061": {
+      "text": "$WIF  - I don't think it's done either, if BTC moves it looks like memes want another leg up and this has just done a flip of 0.20",
+      "time": "2026-08-22 17:51 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.658
+    },
+    "2091261630743019803": {
+      "text": "Manipulation at its finest but the crime cartel will run it back\n\n$TRUMP",
+      "time": "2026-08-22 20:30 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.5468
+    },
+    "2091619711549403293": {
+      "text": "feel like $pengu is actually the coin of the week",
+      "time": "2026-08-23 20:12 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8351
+    },
+    "2091659318575652957": {
+      "text": "Might have another $WIF and $PENGU type setup after this weekly close",
+      "time": "2026-08-23 22:50 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7983
+    },
+    "2091910319711076545": {
+      "text": "$pengu remains the sexiest large cap meme",
+      "time": "2026-08-24 15:27 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7901
+    },
+    "2091991573756252237": {
+      "text": "$PENGU \n\ni would like to reiterate how great this looks \n\npenguins do fly",
+      "time": "2026-08-24 20:50 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8948
+    },
+    "2092009280413094150": {
+      "text": "$trump - if these lil scammers are cooking anything up it's probably soon otherwise its donezo",
+      "time": "2026-08-24 22:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.8921
+    },
+    "2092318431135911936": {
+      "text": "study $pengu",
+      "time": "2026-08-25 18:29 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.7392
+    },
+    "2092319372152828056": {
+      "text": "$PENGU Weekly momentum, months trapped at the lows.\n\nBut this is the bigger picture, and as you can see we're not even moving yet.\n\n12 months down here, what happens when we escape?",
+      "time": "2026-08-25 18:33 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.8672
+    },
+    "2092708509594915081": {
+      "text": "$FLOKI I’ve shown you the entry point right at the absolute low. It remains one of my favourite charts for trading: if BTC forms another temporary low on the lower timeframes, I expect a further upward move.",
+      "time": "2026-08-26 20:19 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9543
+    },
+    "2092954762974990437": {
+      "text": "The last two cycles I made huge mistakes not having meme coin exposure. I’m not making the same mistake this cycle. I fumbled generational wealth \n\n$PCC I think has potential to be one of the next biggest viral meme plays in crypto with mul…",
+      "time": "2026-08-27 12:37 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8138
+    },
+    "2092958318126121307": {
+      "text": "expect $pengu to lead the way here with $sol cookin like this",
+      "time": "2026-08-27 12:52 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9941
+    },
+    "2092990521266622714": {
+      "text": "+49.8% on $WIF.\n\n@Astekz caught the long from 0.202 and closed at 0.212065 for 1.80R.\n\nThe wins keep stacking inside @WealthGroup. Get in the room or keep watching them happen from the outside.",
+      "time": "2026-08-27 15:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9705
+    },
+    "2093010010565398689": {
+      "text": "They will send this shitcoin above $5 swiftly\n\n$TRUMP",
+      "time": "2026-08-27 16:17 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.7137
+    },
+    "2093080432631816303": {
+      "text": "OFFICIAL TRUMP MEMECOIN $TRUMP TO MAKE FIRST CONFERENCE APPEARANCE AT KOREA BLOCKCHAIN WEEK",
+      "time": "2026-08-27 20:57 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.9139
+    },
+    "2093369589132411227": {
+      "text": "$TURBO imo another meme very interesting",
+      "time": "2026-08-28 16:06 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.6766
+    },
+    "2093809152489291947": {
+      "text": "Who has the best and most active community \n\nComment below \n$SPX\n$USELESS\n$NPC\n$PEPE",
+      "time": "2026-08-29 21:12 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.7981
+    },
+    "2094052192827199785": {
+      "text": "$YEE - @YeeErc20: Nine years ago, a video appeared on YouTube. In this video, three memes are mentioned in the so-called video “Story Of a Meme”. \n\nTo be precise, only three memes are mentioned here: $PEPE, $DOGE, and yes, indeed: the $YEE…",
+      "time": "2026-08-30 13:18 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.4276
+    },
+    "2094120609911382118": {
+      "text": "Decision time on this shitcoin $TRUMP soon\n\nI would say it ripps up",
+      "time": "2026-08-30 17:50 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.6434
+    },
+    "2094967005199675839": {
+      "text": "🐋 WHALE WATCH :Bitcoin ETFs had their best month of 2026 generating over $3 billion. However Ethereum ETFs werent far behind also posting their best month since launch.\n\nHeres a summary of verified cryptocurrency ETF inflows in August 2026:…",
+      "time": "2026-09-02 01:53 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8446
+    },
+    "2094968866640179645": {
+      "text": "🐋 WHALE WATCH :The recovery in gaming coins has been broad with $STX leading a sector wide bounce thats lifted almost every name on the list.\n\nHeres the August price performance breakdown:\n\n$STX: +81.43%\n$EGLD: +46.83%\n$VIRTUAL: +25.33%\n$FO…",
+      "time": "2026-09-02 02:01 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9865
+    },
+    "2095192266453275042": {
+      "text": "solana:2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv solana:HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump solana:DSZeB6pCzZsM43gTz7jakiYeCafinsNMKcpeB1FApump $Pepe",
+      "time": "2026-09-02 16:48 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7015
+    },
+    "2095524769659564407": {
+      "text": "$PEPE printed my biggest trade of all time on perps, I think it will do the same again here.",
+      "time": "2026-09-03 14:50 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.686
+    },
+    "2095534459474825390": {
+      "text": "$pepe is an big funds coin, I went into detail last cycle why I thought they took it over but deleted the tweets.\n \nWhen it runs, they make sure it runs giga hard.",
+      "time": "2026-09-03 15:28 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.613
+    },
+    "2095794196359581774": {
+      "text": "$PENGU \n\nI like again here for next expansion",
+      "time": "2026-09-04 08:40 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9296
+    },
+    "2095871048147169401": {
+      "text": "Some of the order execution on $MEME might be worse than Saylor and BTC.",
+      "time": "2026-09-04 13:46 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9713
+    },
+    "2095953259399688529": {
+      "text": "Onchain market is going crazy. We’ve been catching crazy bangers in @WealthGroup \n\nTo be on the top 10 leaderboard you need to atlesst have a 91x\n\nWe just started this leaderboard 3 months ago\n\nThe best call is a 555x from last night on $ME…",
+      "time": "2026-09-04 19:12 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9727
+    },
+    "2096040723015405649": {
+      "text": "PRESIDENT TRUMP ON $TRUMP MEMECOIN:\n\n“I HEAR IT DOES GREAT.”\n\n“I DON’T RUN IT.”\n\n“SOMEBODY TOLD ME IT SELLS VERY WELL.”",
+      "time": "2026-09-05 01:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.8007
+    },
+    "2096276887748194319": {
+      "text": "The Wealth Group Top OnChain Calls Leaderboards.\n\nIt has been a nonstop, no sleep, printing machine inside of the community while onchain has been on fire. \n\nCheck out some of these calls made inside of @WealthGroup for our members: \n\n#1. $…",
+      "time": "2026-09-05 16:38 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8735
+    },
+    "2096339929357766804": {
+      "text": "time for dog memes\n\n$DOGE $Neiro $Bert $SHIB",
+      "time": "2026-09-05 20:49 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.3892
+    },
+    "2096594317997453520": {
+      "text": "Top calls in @WealthGroup over the last 100 days have been insane \n\n$MEME 555x\n$MEMESTOCK 368x\n$PONS 255x\n\nWG trenches are the place to be",
+      "time": "2026-09-06 13:40 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9753
+    },
+    "2096682924040921237": {
+      "text": "Wizz portfolio skyrocketing\n\nNeed $LTC $DOGE To follow $ZEC $TAO and we right on track\n\n$NPC soon will run also",
+      "time": "2026-09-06 19:32 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9945
+    },
+    "2096823026230624482": {
+      "text": "🐋 WHALE WATCH: @arcus_xyz added 13 new perp markets in roughly two days.\n\n$DOGE solana:9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump $PUMP solana:2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv $ENA $TAO $WLFI $AAVE $LINK $UNI $SUI $NEAR binanc…",
+      "time": "2026-09-07 04:49 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9743
+    },
+    "2096982646379184420": {
+      "text": "BREAKING: Hunter Biden is set to launch a meme coin called $LAPTOP on Sept. 9.\n\nThe coin will be launched through a Coinbase-affiliated blockchain, according to the WSJ.\n\nBiden and the token’s founders are expected to control 30% of the 1 b…",
+      "time": "2026-09-07 15:23 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.3505
+    },
+    "2097009238874665369": {
+      "text": "Major move on $DOGE is coming.\n\nStill one of my mainbaggs",
+      "time": "2026-09-07 17:08 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9949
+    },
+    "2097064585954005292": {
+      "text": "gm\n\nQuick update as I've been less active on Twitter in the past week.\n\nNot many charts/trades from me lately, I've been mostly chilling in swings and taking partial profits ($NEAR and $TAO mostly). \n\nMany altcoins are looking good on highe…",
+      "time": "2026-09-07 20:48 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.759
+    },
+    "2097085374858174758": {
+      "text": "Dont ask my why but i think the cartel is about to pump $TRUMP",
+      "time": "2026-09-07 22:11 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.4272
+    },
+    "2097654282740748374": {
+      "text": "$PCC \n\nThe best meme coin traders I know taught me that the first 65% retracement from all time highs is the level you want to be buying\n\nI held $DOGE $PEPE $NEIRO all through multiple 65% crashes before they went parabolic\n\n2 of the top 10…",
+      "time": "2026-09-09 11:52 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7886
+    },
+    "2097706615180763363": {
+      "text": "$LAPTOP did what $TRUMP did but in an hour instead of a year. \n\nCrypto truly does accelerate global commerce.",
+      "time": "2026-09-09 15:20 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7946
+    },
+    "2097724280402309478": {
+      "text": "🐋 WHALE WATCH : Every token in DWF Labs portfolio closed June green.\n\n=> $EGLD +73.70% \n=> $CRV +60.56% \n=> $MNT +45.19% \n=> $FET +37.86% \n=> $BONK +26.36% \n=> $FLOKI +24.98% \n=> $IOTA +20.69% \n=> $CFX +18.01% \n=> $ALGO +11.63% \n=> $FLR +7.…",
+      "time": "2026-09-09 16:30 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9763
+    },
+    "2097783356788232252": {
+      "text": "Hunter Biden’s $LAPTOP memecoin launched on Base today and, two minutes after open, Arkham put its fully diluted valuation at $144 billion.\n\nAt that same Arkham snapshot, the liquidity pool contained $48,000.\n\nOnly 350 million of the 1 bill…",
+      "time": "2026-09-09 20:25 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.6387
+    },
+    "2098114340322718059": {
+      "text": "🐋 WHALE WATCH : Nine sectors nine leaderboards. Heres whos running each one in 2026.\n\n=> Privacy Coins $ZEC $XMR $ZEN $SCRT $ALEO\n\n=> Real World Assets $ONDO $LINK $SKY $CFG $SYRUP\n\n=> DeFi $LDO $AAVE $HYPE $UNI $MORPHO\n\n=> AI & Decentraliz…",
+      "time": "2026-09-10 18:20 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9659
+    },
+    "2098795249850020269": {
+      "text": "$DOGE - ive been in this long forever lol\n\naverage entry is lower than one shown on chart\n\nthesis remains bullish and nothing yet has invalidated idea for me to cut\n\nonly thing we are in control of is following our plan aslong as its proven…",
+      "time": "2026-09-12 15:25 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9101
+    },
+    "2100556009869566259": {
+      "text": "Scooped some $PEPE here - I'm liking this structure. \n\nWill add if we tap the dark blue demand zone, will cut if we accept below. \n\nEqual highs as a minimum upside target, but if I have the timing right, this could be forming a macro bottom…",
+      "time": "2026-09-17 12:02 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9868
+    },
+    "2101330525243716079": {
+      "text": "🐋 WHALE WATCH : USA-aligned coins closed Q3 strong. Nine of eleven finished green over the past 60 days.\n\n$ZEC led at +112.8%, with $UNI close behind at +89.6%. $LINK and $SOL both delivered 35-40%. $XRP $ADA $LTC and $DOGE posted gains in…",
+      "time": "2026-09-19 15:20 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9165
+    },
+    "2102045778592342110": {
+      "text": "$PEPE\n\nready to ignite \n\n(need market to permit)",
+      "time": "2026-09-21 14:42 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9807
+    },
+    "2102077809984196736": {
+      "text": "If you charting any projects that i also like feel free to tagg me. I always try to share it\n\n🤝🫶  \n\n$NPC $ZIG $CAKE $LTC $DOGE $TAO $INJ $LAIKA $PIN $HOLD $NEAR $FET $LNQ $ARC #m87 $SPECTRE $ANYONE $ZEN $TRAC $WOO $BANANA\n\nAnd few more",
+      "time": "2026-09-21 16:49 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7946
+    },
+    "2102091377114820799": {
+      "text": "$PEPE on a mad one today",
+      "time": "2026-09-21 17:43 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.5347
+    },
+    "2102139496561045678": {
+      "text": "$DOGE\n\nNice reaccumulation breakout here.",
+      "time": "2026-09-21 20:54 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9749
+    },
+    "2102401286431801696": {
+      "text": "🐋 WHALE WATCH : $HYPE just entered price discovery but look at the heavyweights. Distance to ATH.\n\n$BTC: +48%\n$BNB: +80%\n$ETH: +82%\n$ZEC: +106%\n$XRP: +145%\n$SOL: +153%\n$TAO: +185%\n$LINK: +309%\n$ONDO: +398%\n$SUI: +529%\n$DOGE: +711%\n$ADA: +12…",
+      "time": "2026-09-22 14:15 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.969
+    },
+    "2102484381843828938": {
+      "text": "$PENGU (per request)\n\nLooks pretty solid here. If it can break yellow horizontal it should pump nice.",
+      "time": "2026-09-22 19:45 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9871
+    },
+    "2102498686697685464": {
+      "text": "$BONK is starting to look interesting again on the macro chart \n\nIf it breaks out, I’ll be buying",
+      "time": "2026-09-22 20:42 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9919
+    },
+    "2102646646563901703": {
+      "text": "US SPOT $DOGE ETFS SAW $909.65K IN NET INFLOWS SEPT. 21, LARGEST DAILY TOTAL SINCE APR. 10",
+      "time": "2026-09-23 06:30 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7963
+    },
+    "2102688368467263638": {
+      "text": "$BONK 👉🏻👈🏻",
+      "time": "2026-09-23 09:15 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9875
+    },
+    "2102765149601853703": {
+      "text": "There have now been 3 notable interactions around Longxyz memecoins and tokenized stocks involving a Palantir co-founder/ the CEOs of Hims / AMC\n\nPLTR: $455 billion\nHIMS: $7.1 billion\nAMC: $2.65 billion\n\n$MONITOR / $PLTR ($5M mcap): Palanti…",
+      "time": "2026-09-23 14:20 UTC",
+      "time_basis": "Publication time",
+      "tone": "neutral",
+      "score": 0.8607
+    },
+    "2102766245795795403": {
+      "text": "🐋 WHALE WATCH :Spot ETF across several crypto assets recorded net inflows on Sept. 22.\n\n=> $BTC: $714.75M\n=> $ETH: $162.31M\n=> $ZEC: $32.81M\n=> $SOL: $28.87M\n=> $XRP: $20.02M\n=> $LINK: $1.89M\n=> $DOGE: $1.17M\n=> $AVAX: $1.15M\n=> $HBAR: $401…",
+      "time": "2026-09-23 14:25 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7221
+    },
+    "2103008337252040717": {
+      "text": "🐋 WHALE WATCH :$PEPE IS OFFICIALLY AWAKE\n\nUp 42.7% in the past 7 days and breaking right through major resistance levels!\n\nIf you have been sidelined you are watching the train leave the station. Whales are accumulating and the volume is in…",
+      "time": "2026-09-24 06:27 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9992
+    },
+    "2103195313070543184": {
+      "text": "$PEPE - 30m nice setup, easy invalidation.",
+      "time": "2026-09-24 18:50 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8078
+    },
+    "2103351342324490628": {
+      "text": "🐋 WHALE WATCH :WHICH ONE HAPPENS FIRST ?\n\n$BTC: $125000 \n$ETH: $7000\n$BNB: $1000 \n$SOL: $400 \n$TRUMP: $50 \n$CORE: $10\n$DOT: $80\n$DOGE: $1\n$APT: $30\n$ICE: $0.05 \n$SUI: $8 \n$XRP: $4 \n$ADA: $2 \n$PI: $5 \n$SHIB: $0.001\n\nHonestly... I think $DOGE…",
+      "time": "2026-09-25 05:10 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8901
+    },
+    "2103361401079132575": {
+      "text": "🐋 WHALE WATCH : $BTC to $90000\n\n$ETH to $3000\n\n$BNB to $800\n\n$SOL to $150\n\n$XRP to $2\n\n$DOGE to $1 \n\n$LINK to $20\n\nAlt season is here. Are you ready ?",
+      "time": "2026-09-25 05:50 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9595
+    },
+    "2103550158294151422": {
+      "text": "🐋 WHALE WATCH : ZEC up 143%. UNI up 127%. Everything else on this list finished green but in a different tier entirely.\n\n30 day USA aligned coin performance:\n\n=> $ZEC: +143.1%\n=> $UNI: +126.9%\n=> $SOL: +20.0%\n=> $LTC: +17.0%\n=> $RENDER: +7.…",
+      "time": "2026-09-25 18:20 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9901
+    },
+    "2103601026196476231": {
+      "text": "$WIF\n\nLooks interesting here... could pump out of this support.",
+      "time": "2026-09-25 21:42 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.929
+    },
+    "2103922695931076979": {
+      "text": "$DOGE \n\nMajor move on $DOGE is coming\n\nTarget: 0.5$",
+      "time": "2026-09-26 19:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9923
+    },
+    "2104412238690000980": {
+      "text": "$PENGU under a penny is free",
+      "time": "2026-09-28 03:25 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.6981
+    },
+    "2104583805080121653": {
+      "text": "$YEE is next. Break that red line and ATH’s are next.  🦖 \n\nRemember: \nNine years ago, a video appeared on YouTube. In this video, three memes are mentioned in the so-called video “Story Of a Meme”. \n\nTo be precise, only three memes are ment…",
+      "time": "2026-09-28 14:47 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8708
+    },
+    "2104770700032520566": {
+      "text": "🐋 WHALE WATCH : When Bitcoin moves these coins follow closest.\n\nBitcoins shadow correlation 0.75+\n=> $ETH 0.89 \n=> $XRP 0.85 \n=> $SOL 0.83 \n=> $DOGE 0.78 \n=> $ADA 0.76  \n=> $LINK 0.76 \n=> $PEPE 0.75\n\nSemi independent 0.51–0.72\n\n=> $BNB 0.72…",
+      "time": "2026-09-29 03:10 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7805
+    },
+    "2105002813256585633": {
+      "text": "$DOGE (per request)\n\nNice start to attempting a trend reversal... early stages potentially. Needs to get above 11 cents for a big trend shift and larger pump",
+      "time": "2026-09-29 18:32 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9852
+    },
+    "2105025646774886475": {
+      "text": "$TRUMP (per request)\n\nNot much to work with here... pretty dead chart overall at current time..",
+      "time": "2026-09-29 20:03 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.5032
+    },
+    "2105026643790360643": {
+      "text": "$PENGU (per request)\n\nCurrently at resistance... break above for bull trend reversal.",
+      "time": "2026-09-29 20:07 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8925
+    },
+    "2105211909054087382": {
+      "text": "$BONK weirdly strong today, something brewing?",
+      "time": "2026-09-30 08:23 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.8914
+    },
+    "2105364291842912409": {
+      "text": "🐋 WHALE WATCH :Grayscale just accumulated 1000000 $DOGE.\n\n$DOGE leading the mainstage retail revival Wall Street is playing the entire stack this cycle. Are you positioned or still watching from the sidelines ? \n\nhttps://arkm.com/explorer/t…",
+      "time": "2026-09-30 18:28 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9903
+    },
+    "2105417408756208035": {
+      "text": "NEW: DOGEOS LAUNCHES PUBLIC TESTNET FOR ZK-EVM ROLLUP ON DOGECOIN, BRINGING EVM SMART CONTRACTS WITH GAS FEES PAID IN $DOGE",
+      "time": "2026-09-30 22:00 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.977
+    },
+    "2105890653104460065": {
+      "text": "$BONK \n\nMeme coin on solana...\n\nWith Crypto popping these memes have a way to make a come back... \n\nEasy 3x from here if we tag red line again.",
+      "time": "2026-10-02 05:20 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9453
+    },
+    "2105890899758854477": {
+      "text": "$WIF \n\nTarget $1.30",
+      "time": "2026-10-02 05:21 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9078
+    },
+    "2105901898880397681": {
+      "text": "🐋 WHALE WATCH :They laughed when it dipped. They will panic when it breaks out.\n\nLook at the targets:\n=> $BTC - $90k  \n=> $ETH - $3k  \n=> $BNB - $800 \n=> $SOL - $150  \n=> $XRP - $2  \n=> $DOGE - $1  \n=> $LINK - $20\n\nThe liquidity shift into…",
+      "time": "2026-10-02 06:05 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.796
+    },
+    "2105906936302514459": {
+      "text": "🐋 WHALE WATCH :The Q4 setup is looking entirely different than retail thinks. Capital is flowing where the institutional rails are actually being built.\n\nRanked:\n=> $DOGE\n=> $PEPE\n=> $XRP\n=> $AVAX\n=> $ADA\n=> $SOL\n=> $LUNC\n=> $FLOKI\n\nUnpopul…",
+      "time": "2026-10-02 06:25 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9435
+    },
+    "2106267677673033873": {
+      "text": "🐋 WHALE WATCH : Absolute domination by the mid and low caps this month! If you put $10000 into these tokens back on day one of September here is how your bag looks right now:\n\n=> $SUPER: $19961 (+99.61%)\n=> $SAND: $15308 (+53.08%)\n=> $STX:…",
+      "time": "2026-10-03 06:18 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9714
+    },
+    "2106832422574711158": {
+      "text": "$DOGE time soon",
+      "time": "2026-10-04 19:42 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.7332
+    },
+    "2106857732095512962": {
+      "text": "$FLOKI weekly",
+      "time": "2026-10-04 21:23 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.5999
+    },
+    "2107000052648444069": {
+      "text": "🐋 WHALE WATCH : ALTSEASON 2026 BEGINS\n\nBULL RUN HAS NOW STARTED\n\n=> $Bitcoin to $250.000\n=> $ETH to $10.000\n=> $BNB to $5000\n=> $SOL to $1000\n=> $XRPM to $10\n=> $PEPE to $0.01\n=> $DOGE to $1\n=> $SHIBA to $0.5\n=> $LUNC to $0.01\n=> $WKC to $3…",
+      "time": "2026-10-05 06:48 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9646
+    },
+    "2107725167921119731": {
+      "text": "🐋 WHALE WATCH : Our Prediction For Next 4 Months\n\n=> $BTC: $120K-$150K\n=> $ETH: $5K-$10K\n=> $BNB: $700-$1100\n=> $SOL: $300-$600\n=> $XRP: $3-$4\n=> $DOGE: $0.70-$1\n=> $ICE: $0.01-$0.1\n=> $DOT: $23-$80\n=> $APT: $35-$70\n=> $SUI: $5-$8\n=> $PI: $…",
+      "time": "2026-10-07 06:50 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.893
+    },
+    "2108198292643328206": {
+      "text": "🐋 WHALE WATCH : Someone with absolute iron conviction just dropped the hammer on @Aster_DEX.\n\nTrader 0xdd6a has opened massive 20x short positions across the entire major basket $BTC $ETH $SOL $XRP and $DOGE.\n\n=> Total Position Size: $26.5M…",
+      "time": "2026-10-08 14:10 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.7087
+    },
+    "2108626119515574510": {
+      "text": "🐋 WHALE WATCH : Buying the dip. 3 to 6 month targets:\n\n$BTC — $105K–$120K\n$ETH — $4.5K–$6K\n$BNB — $800–$1050\n$SOL — $275–$425\n$XRP — $2.50–$3.50\n$DOGE — $0.60–$1.20\n$LINK — $175–$275\n$NEAR — $8–$12\n$HBAR — $0.22–$0.38\n$QNT — $350–$550\n$ARB…",
+      "time": "2026-10-09 18:30 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9591
+    },
+    "2108660079700410687": {
+      "text": "🐋 WHALE WATCH : Bitcoin slid 4.2% from $86,592 to under $83000 triggering $550M in liquidations.\n\n7 day performance:\n\n=> $RENDER +4.4% \n=> $ADA 0.0% \n=> $BCH -3.6% \n=> $LTC -4.2% \n=> $SOL -4.6% \n=> $XRP -5.7% \n=> $DOGE -8.0% \n=> $LINK -9.6%…",
+      "time": "2026-10-09 20:45 UTC",
+      "time_basis": "Publication time",
+      "tone": "bearish",
+      "score": 0.9469
+    },
+    "2109300551083008306": {
+      "text": "🐋 WHALE WATCH : ALTSEASON 2026\n\nBULL RUN HAS NOW STARTED\n\n=> $Bitcoin to $250.000\n=> $ETH to $10.000\n=> $BNB to $5000\n=> $SOL to $1000\n=> $XRP to $10\n=> $DOGE to $1\n=> $SHIBA to $0.5\n=> $PEPE to $0.1\n=> $WKC to $3\n=> $FLOKI to $1.50\n=> $BON…",
+      "time": "2026-10-11 15:10 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9555
+    },
+    "2111145746074358098": {
+      "text": "🐋 WHALE WATCH :While the rest of the market crawled over the last 30 days one altcoin went parabolic. \n\nIf you put $10k into the top assets a month ago the divergence is staggering:\n\n=> $NEAR: $22283 (+122.8%)\n=> $ADA: $11853 (+18.5%)\n=> $L…",
+      "time": "2026-10-16 17:22 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9489
+    },
+    "2112208462662746387": {
+      "text": "🐋 WHALE WATCH : $10K in $QNT 30 days ago is worth $31525 today. +215%.\n\nStrip that out and the picture flattens fast. $WLD led the rest at +21%. Everything else either scraped single digits green or bled quietly into the red.\n\n=> $QNT: +215…",
+      "time": "2026-10-19 15:45 UTC",
+      "time_basis": "Publication time",
+      "tone": "bullish",
+      "score": 0.9726
+    }
+  }
+}

@@ -1,12 +1,12 @@
 {
   "status": "passed",
-  "execution": "fresh-directory local Jupyter; cached sentiment; not actual Google Colab",
-  "notebook_seconds": 32.38,
+  "execution": "local Jupyter with pinned input files and cached sentiment",
+  "notebook_seconds": 76.7,
   "code_cells_with_outputs": 13,
-  "python_tests": 58,
+  "python_tests": 54,
   "source_parity": true,
   "model_json_parity": true,
-  "clean_report_exact_match": true,
+  "clean_report_exact_match": false,
   "generator_idempotence": true,
   "quota_sampling": false,
   "eligible_original_posts": 1773,
@@ -17,9 +17,9 @@
   },
   "test_coin_days": 2509,
   "hashes": {
-    "HypeCheck.ipynb": "7ec5c0411ae055b62caed23e442b34d15d63f483d8a46246e4389f5a513b957b",
-    "README.md": "b8a6ffe74f38461142c0b490b86c8b65c6f3b7781a1116b40272af23696d43f9",
-    "WRITEUP.md": "c079e991d6a43c47a6ebe8b19c2b1e53f8f0f6945a99d7231af093afc8c01ef1",
+    "HypeCheck.ipynb": "28ef9a42dbc09d942a81adba7f9ef20660c85f7c5d7c47fe6bc29fe441e96f19",
+    "README.md": "488c2a954480a47896c52ea4c72bb6ae1d24ba8cb1b08f2c5026068376a5e73a",
+    "WRITEUP.md": "68de6a69f54b7ac043aff45151fc3d4e6cd8dc1fa8f91ab11e0f0bf2e32444cf",
     "headline_study.py": "a2b36d884a58be19f43c1871e65a962fceb1e84820dabd703eb8ed9f4bd24307",
     "expanded_inputs.py": "bbb6cd7c8179a12cedb36d5c5e70a8d3738b638f29ab7b71b81c29de9c314d81",
     "pipeline.py": "58a80d95767c43b794bad48ed5818bf8b18d0ce49e5fed35e5201e509b7574c6",
@@ -27,15 +27,20 @@
     "artifacts/headline-model.json": "c44b3bccb2e91edf6774979967b697d6d3f92deeea0518ab245a9c35ece84e37",
     "artifacts/headline-predictions.csv": "a49568592819f9a9029aa9427bbb5887885ab76b5b07dcd40f5c80eaf3742781",
     "data/expanded-memecoin-daily.csv": "4ea2b737ee19daff97414a444ec3ea5313b797b78705e1b56dbf055bd5d47a56",
-    "docs/headlines.html": "562b72c393e4f3007c1dcf4701016787626b911d3b6c6d18e813545c093f4b97",
-    "docs/headlines.js": "b66afeeca366f29405943a8e9ad51e532ef30c9e211932b8632a418908110786",
-    "docs/headlines.css": "b302a7c50e488c8178949e8af4ca12e857852f786974f5a864af2c513a309962",
+    "docs/headlines.html": "4d7c7492add4ea5315184b1dca72ca5d47918971644ac8f7bc8333f1a3819fc0",
+    "docs/headlines.js": "6eb6e1a6e56a73c6a5317c48d7a34e9bc9b6db5a539b28ceda9698d238abcdf5",
+    "docs/headlines.css": "70c54ad0496a11c5234aeebbb98884e82d0d7ff9d907f4f703ba25065122151c",
     "colab_setup.py": "48e912fec0f69329b2ed93ef5da6cca4890ec191fa6e84367eece7be2a246cb4",
     "colab-loader.json": "689eff9618fa84f9f3353836af091d489571a0f99f070f1f12f1f84096c24b17",
     "notebook_support.py": "e5dd57e29724851b18e5bd2ebfb9b226b4bb5a72be36b4144a51503ab2e01e70",
-    "test_notebook_readability.py": "3776bafdfb17f85c86e7580505ed743cd2c7e9e6c4826c5d15f018579b1ac4fb",
-    "build_headline_colab.py": "4f4a43bff6dbcc39455072d50a37d14eba9f55942b4ce72acc996d5c56eb9ca1",
-    "verify_submission.py": "f47f909c887e5c538cd4e02b62657b89de143801394ed43b03130c4481c45834"
+    "test_notebook_readability.py": "4d933d54dd6f0f6389bb0b87cd989c0bd60db7215b824a1cd2ae450e26834784",
+    "build_headline_colab.py": "bd0383de03f8872c154c59b6cf387482865159e4628a15e5f0944a70e0391240",
+    "verify_submission.py": "40961c64fa9c43476215d1c93a9e100bff05e1ee8f40a01b42e4081f65dcc360",
+    "build_headline_context.py": "f6cb042d53314d33a42c1fb1eeec73cebc3d37b6c2cc086b10c7fc0c0bcada80",
+    "docs/index.html": "9ef6068d37cc93c84613a62c4bc260c3412bd814f13c24558d546c31e09d6a05",
+    "docs/archive.html": "2cdc1565066941492d379e450534c3502a9970f56644a633cd15514b90fcfb4c",
+    "docs/headline-context.json": "b449d45de9eddab5810ed78f8a3eff9e9eaa73755066b1c56163910f2c7e2328",
+    "research/method.md": "854d6fb6f4f88c65164b3350a39b7e1b4a572375efe4001dcb96d1a5113309a2"
   },
   "recompute_path": {
     "status": "passed",
@@ -63,7 +68,7 @@
   "compact_loader": {
     "lines": 14,
     "characters": 885,
-    "fresh_workspace_run": "passed",
+    "fresh_workspace_run": "Previous verification with the same pinned loader",
     "source_and_data_sha256_verification": true,
     "recompute_toggle_unit_test": "passed"
   },
@@ -72,10 +77,19 @@
     "svg_charts": 1,
     "largest_code_cell_characters": 1039,
     "all_code_cells_executed": true,
-    "scientific_outputs_byte_identical": [
-      "docs/headline-report.json",
-      "artifacts/headline-predictions.csv",
-      "artifacts/headline-model.json"
+    "scientific_outputs_byte_identical": []
+  },
+  "python_tests_skipped": 2,
+  "published_accuracy_reproduced": true,
+  "published_brier_reproduced_with_tolerance": 1e-12,
+  "live_colab_verified": false,
+  "replay": {
+    "default": "DOGE/2026-04-30",
+    "test_coin_days_with_posts": 219,
+    "browser_widths_checked": [
+      1440,
+      768,
+      390
     ]
   }
 }

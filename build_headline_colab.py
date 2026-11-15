@@ -28,20 +28,20 @@ def code(text, title=None):
 
 
 md("""# HypeCheck: signal or noise?
-### Can yesterday's social posts predict tomorrow's memecoin direction?
+### Do yesterday's archived X posts improve next-day memecoin forecasts?
 **Veritas AI International High School Hackathon 2026 · AI + Finance**
 **Team:** Nathaniel Wong · Aaden Yick · Alastair Chu — Malvern College Hong Kong
 
 **Our user:** a beginner crypto investor who sees a bullish post and wonders whether to trust it.
 **Our test:** compare an AI sentiment model with simple rules on later, unseen-by-training market dates.
 
-> **Bottom line:** we do not demonstrate reliable additional forecasting value from these posts. A negative result is still a useful answer.
+> **Finding:** the market-history model got 54.40% right. Adding post counts and sentiment brought that to 53.61%. We observed posts in 219 of 2,509 test rows.
 
 **How to run:** choose **Runtime → Run all**. No keys or uploads. Saved outputs are included for reading without running. We train the direction classifiers during the run; the default reuses verified, frozen sentiment scores.
 
-**Reading route:** data → time split → baselines → model → mistakes → robustness → demo → conclusion. Each section explains **what we do** and **what the output means**, like the sample submission.
+**Try the [browser replay](https://adeviwon.github.io/hypecheck/)** to read a pair of archived DOGE posts, compare the forecasts and reveal the outcome.
 
-*Prototype only. Not financial advice. These are X posts, not newspaper headlines. The reused archive makes this exploratory, not independent confirmation.*
+*This project is a prototype and is not financial advice. We had examined the final dates before, so the result is exploratory.*
 """)
 md("""### Before you start: automatic setup
 Run this once. Installation details are kept out of the main explanation. In Colab, click **Show code** on a setup cell if you want to inspect it.
@@ -87,11 +87,11 @@ print(f'Loaded {len(raw):,} source rows; {len(selected):,} eligible original pos
 print('Coins:', ', '.join(COINS))
 """)
 md("""## 2. Look at the data before training
-We remove duplicates and keep supported coin tags. A post is usable only after the later of its publication and archive-collection timestamps.
+We remove duplicates and keep supported coin tags. We assign posts to the later of publication and archive collection when both timestamps exist. Otherwise, we use publication time. The first archive timestamp was missing for 231 of 232 eligible posts assigned to test dates. All 1,464 training posts were tagged Discord by the archive. The test archive tagged 231 posts as web and one as both.
 
 **Prediction task:** use posts available on one UTC day to predict whether the coin's **next-day close is above its open**. A flat day counts as “not up.”
 
-**Read the sample below:** these are actual inputs, not invented examples. Sentiment is an AI label for the wording—not proof that the price rose.
+**Read the sample below:** FinTwitBERT assigns tone to the wording. The direction model estimates whether the coin will rise.
 """)
 code("""sample = selected[['available_at', 'text']].head(3).copy()
 sample['available_at'] = sample.available_at.dt.strftime('%Y-%m-%d %H:%M UTC')
@@ -106,7 +106,7 @@ md("""## 3. Split the data by time—not at random
 | Validation: middle dates | Choose regularisation without using the test |
 | Test: latest dates | Report the final accuracy |
 
-We leave a **one-day gap** at each boundary. Features use only earlier information; training and test share **zero UTC dates**. The archive has been examined in earlier research, so this is not a pristine confirmatory test.
+We leave a **one-day gap** at each boundary. The rules assign posts and market features to earlier UTC dates. Training and test share **zero UTC dates**. The final dates were examined in earlier research.
 
 **What the output means:** the test dates must come after training and validation. The assertions stop execution if the boundaries overlap.
 """)
@@ -150,7 +150,7 @@ md("""## 5. Model 1: turn sentiment into a direction forecast
 
 The classifier sees sentiment, post count, disagreement and coin identity. The pretrained encoder is **not fine-tuned**. We fit three regularisation settings on training data and choose using validation Brier error. The probability threshold is fixed at 0.5.
 
-**Fair test:** compare the model with *coin identity only*, and compare market history *with versus without* sentiment. This separates text information from other easy explanations.
+**Fair test:** compare posts and coin identity against coin identity alone. Then compare lagged price and volume with and without the post inputs. Both market models include coin identity, and the post inputs combine count, presence and sentiment.
 """)
 code("""done = subprocess.run([sys.executable, 'headline_study.py', '--universe', 'expanded'],
                       text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
@@ -216,23 +216,29 @@ print('Finding:', ', '.join(reliable) + ' show exploratory improvement.' if reli
       else 'No kind demonstrates a reliable improvement under these checks.')
 """)
 md("""## 9. The demo: inspect a real historical forecast
-Choose a held-out coin/date and rerun the cell. First leave **reveal = False**; then change it to **True** to see what happened.
+Start with DOGE on April 30, 2026. Read the previous day's two posts and compare the market forecasts. Set **reveal = True** and rerun the cell to see what happened.
 
-The probability is reconstructed from the **saved trained classifier** and verified against its recorded prediction. This is a historical replay—not a live trading signal or a measurement of a post's causal effect.
+The replay verifies the reconstructed posts-and-coin estimate against the recorded prediction. It also displays the two saved market estimates for the same date.
 """)
-code("""coin = 'PEPE'  #@param {type:'string'}
-date = '2026-04-21'  #@param {type:'string'}
+code("""coin = 'DOGE'  #@param {type:'string'}
+date = '2026-04-30'  #@param {type:'string'}
 reveal = False  #@param {type:'boolean'}
+saved_row = pred[pred.coin.eq(coin) & pred.date.str[:10].eq(date)]
+if len(saved_row) != 1:
+    raise ValueError('Choose a coin and a date in the test period.')
+for name in ['Market only', 'Market + sentiment']:
+    probability = saved_row.iloc[0][name]
+    print(f'{name}: {probability:.2%} estimated probability of up')
 replay(test, scored, pred, coin, date, reveal=reveal)
 """, 'Try a historical forecast')
 md("""## 10. Results summary: does the text help?
-Start with the model and the two required baselines. Then check the harder references: training majority and market history.
+Start with both market models. The table also shows the two required baselines, the training majority rule, and the constant training up rate for probability comparisons.
 
 **Do not mistake a higher point score for a proven edge.** The paired 95% intervals below resample seven-date blocks and keep coins together. If an interval includes zero, an accuracy improvement is not demonstrated.
 """)
-code("""names = ['Always up', 'Previous-day direction', 'Sentiment + coin', 'Training majority', 'Market only']
+code("""names = ['Market only', 'Market + sentiment', 'Training majority', 'Sentiment + coin', 'Always up', 'Previous-day direction']
 accuracy_chart(report, names)
-accuracy_table(report, names + ['Coin only', 'Market + sentiment', 'Training prevalence'])
+accuracy_table(report, names + ['Coin only', 'Training prevalence'])
 comparisons = []
 for name in ['Always up', 'Previous-day direction', 'Training majority', 'Market only']:
     result = report['paired_accuracy_differences'][name]
@@ -245,8 +251,8 @@ print(f"Sanity checks: real model {controls['real_accuracy']:.2%}; permuted-labe
 print('The controls refit classifiers; their accuracy need not equal 50% in an imbalanced market.')
 """)
 md("""### What these results mean
-- Beating always-up is not enough: an always-down/majority rule can do well in a falling market.
-- The sentiment model does not demonstrate an accuracy gain over market history or training majority. The text-plus-market model is also checked directly against market-only.
+- Up days were less common. The training-majority rule always picked not up and beat the posts-and-coin model.
+- Adding posts to the market model increased Brier error by 0.000908 (exploratory 95% interval +0.000238 to +0.001589). The separate paired accuracy intervals above include zero.
 - This is a bounded result for **these inputs, models, horizon and dates**—not proof that every kind of financial-text prediction is impossible.
 
 ## 11. What should an investor do with this?
